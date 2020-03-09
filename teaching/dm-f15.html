@@ -1,0 +1,755 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9" lang="en-US"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+
+
+<!-- Mirrored from las.inf.ethz.ch/teaching/dm-f15 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Mar 2020 19:15:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Mining: Learning from Large Data Sets | Learning &amp; Adaptive Systems Group</title>
+<link rel="pingback" href="../xmlrpc.php"><link rel="shortcut icon" href="../wp-content/uploads/2015/10/favicon.ico"><link rel="apple-touch-icon-precomposed" href="../wp-content/uploads/2015/10/apple-icon-152x152.png"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="../wp-content/uploads/2015/10/ms-icon-144x144.png"><link rel='dns-prefetch' href='http://code.jquery.com/' />
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Learning &amp; Adaptive Systems Group &raquo; Feed" href="../feed" />
+<link rel="alternate" type="application/rss+xml" title="Learning &amp; Adaptive Systems Group &raquo; Comments Feed" href="../comments/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/las.inf.ethz.ch\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.13"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wordpress-file-upload-style-css'  href='../wp-content/plugins/wordpress-file-upload-pro/css/wordpress_file_upload_style_relaxed5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-file-upload-style-safe-css'  href='../wp-content/plugins/wordpress-file-upload-pro/css/wordpress_file_upload_style_safe_relaxed5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css-css'  href='http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css?ver=4.9.13' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-timepicker-addon-css-css'  href='../wp-content/plugins/wordpress-file-upload-pro/vendor/datetimepicker/jquery-ui-timepicker-addon.min5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='x-stack-css'  href='../wp-content/themes/x/framework/css/site/stacks/integrity-light0235.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='x-font-custom-css'  href='http://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C700%2C700italic%7CLato%3A400%7CLato%3A300%7CLato%3A300&amp;subset=latin%2Clatin-ext&amp;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='easy_table_style-css'  href='../wp-content/plugins/easy-table/themes/default/stylef24c.css?ver=1.6' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/wordpress-file-upload-pro/js/json2c8f9.js?ver=4.9.13'></script>
+<script type='text/javascript' src='../wp-content/plugins/wordpress-file-upload-pro/js/wordpress_file_upload_functionsc8f9.js?ver=4.9.13'></script>
+<script type='text/javascript' src='../wp-content/themes/x/framework/js/dist/site/x-head.min0235.js?ver=4.1.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/cornerstone/assets/js/dist/site/cs-head.min0ba6.js?ver=1.0.6'></script>
+<link rel='https://api.w.org/' href='../wp-json/index.html' />
+<link rel="canonical" href="dm-f15.html" />
+<link rel='shortlink' href='../index146c.html?p=186' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed34fb.json?url=https%3A%2F%2Flas.inf.ethz.ch%2Fteaching%2Fdm-f15" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embeda5a5?url=https%3A%2F%2Flas.inf.ethz.ch%2Fteaching%2Fdm-f15&amp;format=xml" />
+<style id="x-customizer-css-output" type="text/css">a,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,.x-topbar .p-info a:hover,.x-breadcrumb-wrap a:hover,.widget ul li a:hover,.widget ol li a:hover,.widget.widget_text ul li a,.widget.widget_text ol li a,.widget_nav_menu .current-menu-item > a,.x-widgetbar .widget ul li a:hover,.x-accordion-heading .x-accordion-toggle:hover,.x-comment-author a:hover,.x-comment-time:hover,.x-recent-posts a:hover .h-recent-posts{color:#ba720d;}a:hover,.widget.widget_text ul li a:hover,.widget.widget_text ol li a:hover,.x-twitter-widget ul li a:hover{color:#bf0f3e;}.rev_slider_wrapper,a.x-img-thumbnail:hover,.x-slider-container.below,.page-template-template-blank-3-php .x-slider-container.above,.page-template-template-blank-6-php .x-slider-container.above{border-color:#ba720d;}.entry-thumb:before,.pagination span.current,.flex-direction-nav a,.flex-control-nav a:hover,.flex-control-nav a.flex-active,.mejs-time-current,.x-dropcap,.x-skill-bar .bar,.x-pricing-column.featured h2,.h-comments-title small,.x-entry-share .x-share:hover,.x-highlight,.x-recent-posts .x-recent-posts-img:after{background-color:#ba720d;}.x-nav-tabs > .active > a,.x-nav-tabs > .active > a:hover{box-shadow:inset 0 3px 0 0 #ba720d;}.x-main{width:69.536945%;}.x-sidebar{width:25.536945%;}.x-topbar{background-color:transparent;}.x-topbar .p-info,.x-topbar .p-info a,.x-navbar .desktop .x-nav > li > a,.x-navbar .desktop .sub-menu a,.x-navbar .mobile .x-nav li > a,.x-breadcrumb-wrap a,.x-breadcrumbs .delimiter{color:#272727;}.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .x-active > a,.x-navbar .desktop .x-nav > .current-menu-item > a,.x-navbar .desktop .sub-menu a:hover,.x-navbar .desktop .sub-menu .x-active > a,.x-navbar .desktop .sub-menu .current-menu-item > a,.x-navbar .desktop .x-nav .x-megamenu > .sub-menu > li > a,.x-navbar .mobile .x-nav li > a:hover,.x-navbar .mobile .x-nav .x-active > a,.x-navbar .mobile .x-nav .current-menu-item > a{color:#b7b7b7;}.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .x-active > a,.x-navbar .desktop .x-nav > .current-menu-item > a{box-shadow:inset 0 4px 0 0 #ba720d;}.x-navbar .desktop .x-nav > li > a{height:50px;padding-top:20px;}.x-navbar-fixed-top-active .x-navbar-wrap{margin-bottom:1px;}.x-navbar .desktop .x-nav > li ul{top:35px;;}.x-comment-author,.x-comment-time,.comment-form-author label,.comment-form-email label,.comment-form-url label,.comment-form-rating label,.comment-form-comment label,.widget_calendar #wp-calendar caption,.widget.widget_rss li .rsswidget{font-family:Lato;font-weight:300;}.p-landmark-sub,.p-meta,input,button,select,textarea{font-family:Lato;}.x-brand,.x-brand:hover{color:#999;}.widget ul li a,.widget ol li a,.x-comment-time{color:#848484;}.widget_text ol li a,.widget_text ul li a{color:#ba720d;}.widget_text ol li a:hover,.widget_text ul li a:hover{color:#bf0f3e;}@media (max-width:979px){.x-navbar-fixed-top-active .x-navbar-wrap{margin-bottom:0;}.x-widgetbar{left:0;right:0;}}body{font-size:15px;font-style:normal;font-weight:300;color:#848484;background:#f3f3f3 url(../wp-content/uploads/2015/10/bg-integrity-1.png) center top repeat;}a:focus,select:focus,input[type="file"]:focus,input[type="radio"]:focus,input[type="submit"]:focus,input[type="checkbox"]:focus{outline:thin dotted #333;outline:5px auto #ba720d;outline-offset:-1px;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-style:normal;font-weight:300;letter-spacing:-1px;}.w-h{font-weight:300 !important;}.x-container.width{width:80%;}.x-container.max{max-width:1000px;}.x-main.full{float:none;display:block;width:auto;}@media (max-width:979px){.x-main.full,.x-main.left,.x-main.right,.x-sidebar.left,.x-sidebar.right{float:none;display:block;width:auto !important;}}.entry-header,.entry-content{font-size:15px;}.x-brand{font-style:normal;font-weight:300;letter-spacing:-3px;text-transform:uppercase;}.x-brand img{width:200px;}body,input,button,select,textarea{font-family:"Lato","Helvetica Neue",Helvetica,sans-serif;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Lato","Helvetica Neue",Helvetica,sans-serif;}.x-brand{font-family:"Lato","Helvetica Neue",Helvetica,sans-serif;}.x-navbar .x-nav > li > a{font-family:"Lato","Helvetica Neue",Helvetica,sans-serif;}.cfc-b-tx{color:#848484 !important;}.cfc-b-bd{border-color:#848484 !important;}.cfc-b-bg{background-color:#848484 !important;}.x-navbar{font-size:11px;}body.x-navbar-fixed-top-active .x-navbar-wrap{height:50px;}.x-navbar-inner{min-height:50px;}.x-logobar-inner{padding-top:0px;padding-bottom:0px;}.x-brand{font-size:38px;font-size:3.8rem;}.x-navbar .x-brand{margin-top:px;}.x-navbar .x-nav-wrap .x-nav > li > a{font-style:normal;font-weight:400;letter-spacing:2px;text-transform:uppercase;}.x-navbar .desktop .x-nav > li > a:not(.x-btn-navbar-woocommerce){padding-left:16px;padding-right:16px;}.x-navbar .desktop .x-nav > li > a > span{margin-right:-2px;}.x-btn-navbar{margin-top:19px;}.x-btn-navbar,.x-btn-navbar.collapsed{font-size:24px;}@media (max-width:979px){body.x-navbar-fixed-top-active .x-navbar-wrap{height:auto;}}.x-btn,.button,[type="submit"]{color:#fff;border-color:#ac1100;background-color:#dd9933;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);border-radius:0.25em;padding:0.579em 1.105em 0.842em;font-size:19px;}.x-btn:hover,.button:hover,[type="submit"]:hover{color:#fff;border-color:#600900;background-color:#dd3333;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);}.x-btn.x-btn-real,.x-btn.x-btn-real:hover{margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);}.x-btn.x-btn-real{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-real:hover{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-flat,.x-btn.x-btn-flat:hover{margin-bottom:0;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);box-shadow:none;}.x-btn.x-btn-transparent,.x-btn.x-btn-transparent:hover{margin-bottom:0;border-width:3px;text-shadow:none;text-transform:uppercase;background-color:transparent;box-shadow:none;}.h-widget:before,.x-flickr-widget .h-widget:before,.x-dribbble-widget .h-widget:before{position:relative;font-weight:normal;font-style:normal;line-height:1;text-decoration:inherit;-webkit-font-smoothing:antialiased;speak:none;}.h-widget:before{padding-right:0.4em;font-family:"fontawesome";}.x-flickr-widget .h-widget:before,.x-dribbble-widget .h-widget:before{top:0.025em;padding-right:0.35em;font-family:"foundationsocial";font-size:0.785em;}.widget_archive .h-widget:before{content:"\f040";top:-0.045em;font-size:0.925em;}.widget_calendar .h-widget:before{content:"\f073";top:-0.0825em;font-size:0.85em;}.widget_categories .h-widget:before,.widget_product_categories .h-widget:before{content:"\f02e";font-size:0.95em;}.widget_nav_menu .h-widget:before,.widget_layered_nav .h-widget:before{content:"\f0c9";}.widget_meta .h-widget:before{content:"\f0fe";top:-0.065em;font-size:0.895em;}.widget_pages .h-widget:before{content:"\f0f6";top:-0.065em;font-size:0.85em;}.widget_recent_reviews .h-widget:before,.widget_recent_comments .h-widget:before{content:"\f086";top:-0.065em;font-size:0.895em;}.widget_recent_entries .h-widget:before{content:"\f02d";top:-0.045em;font-size:0.875em;}.widget_rss .h-widget:before{content:"\f09e";padding-right:0.2em;}.widget_search .h-widget:before,.widget_product_search .h-widget:before{content:"\f0a4";top:-0.075em;font-size:0.85em;}.widget_tag_cloud .h-widget:before,.widget_product_tag_cloud .h-widget:before{content:"\f02c";font-size:0.925em;}.widget_text .h-widget:before{content:"\f054";padding-right:0.4em;font-size:0.925em;}.x-dribbble-widget .h-widget:before{content:"\f009";}.x-flickr-widget .h-widget:before{content:"\f010";padding-right:0.35em;}.widget_best_sellers .h-widget:before{content:"\f091";top:-0.0975em;font-size:0.815em;}.widget_shopping_cart .h-widget:before{content:"\f07a";top:-0.05em;font-size:0.945em;}.widget_products .h-widget:before{content:"\f0f2";top:-0.05em;font-size:0.945em;}.widget_featured_products .h-widget:before{content:"\f0a3";}.widget_layered_nav_filters .h-widget:before{content:"\f046";top:1px;}.widget_onsale .h-widget:before{content:"\f02b";font-size:0.925em;}.widget_price_filter .h-widget:before{content:"\f0d6";font-size:1.025em;}.widget_random_products .h-widget:before{content:"\f074";font-size:0.925em;}.widget_recently_viewed_products .h-widget:before{content:"\f06e";}.widget_recent_products .h-widget:before{content:"\f08d";top:-0.035em;font-size:0.9em;}.widget_top_rated_products .h-widget:before{content:"\f075";top:-0.145em;font-size:0.885em;}</style>
+    <style id="x-customizer-css-custom" type="text/css">
+      .file_item_clean .subfolder_dropdown {
+margin-bottom:0 !important;
+}
+
+#wordpress_file_upload_block_1 {
+padding-top:10px;
+border-top:1px #DDD solid;
+margin-top 10px;
+}
+
+#wordpress_file_upload_block_1 .file_td_clean {
+padding:0px;
+margin:0px;
+}
+
+#wordpress_file_upload_block_1 .file_input_textbox {
+margin:0; 
+padding:0;
+}
+
+
+.h-custom-headline {
+line-height: 1.5 !important;
+}
+
+.x-btn-navbar {
+margin-top: 2px;
+}
+
+.entry-content .x-ul-icons {
+margin-bottom: 0;
+}
+
+h6 {
+letter-spacing:0px !important;
+text-transform: none !important;
+}
+
+b {
+font-weight:400;
+
+}
+.entry-content {
+margin-top:0;
+}
+
+.las-table td {
+    border-top:none;
+}
+.las-table > thead > tr {
+font-weight: 400
+}
+
+.result h5 {
+margin-top:0px;
+}
+
+.las-publications .bibtitle {
+    font-weight:400 ! important;
+
+}
+.ethlogo {
+    width:120px !important;
+    margin-left:20%;
+}
+
+.result td {
+    border:none;
+}
+
+.x-portfolio .entry-info {
+    width:100%;
+}
+
+.bibcomment b {
+    font-weight:400;
+}
+
+.las-news li {
+    padding-bottom:7.5px;
+}
+
+.las-news {
+    margin: 0 0 1.313em 1.655em;
+}
+
+.entry-content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.two-up {
+    white-space: nowrap;
+}
+
+.news li {
+    padding-bottom:7.5px
+}
+
+.date {
+    background-color: blue;
+
+}
+.btb-header { }
+.sheader {
+    font-size:large;
+}
+
+.rheader {
+    font-size: large;
+}
+
+.bibref {
+    border:none;
+    vertical-align:top;
+}
+
+.bibtitle {
+    font-weight:normal;
+}
+
+.bibbooktitle {
+    font-style:italic;
+}
+
+.bibitem {
+    border:none;
+    padding-top:0px;
+}
+
+.entry-wrap {
+    padding:50px;
+    padding-top:15px;
+    padding-bottom:35px;
+}
+
+.bibauthor {}
+
+h4, h5, h6, .h4, .h5, .h6 {
+    margin-top: 20px;
+}
+.easy-table th, .easy-table td {
+    font-weight:inherit
+}
+
+.purebibtex {
+    font-size: small;
+    font-family: inherit;
+}
+
+.purebibtex,.pureabs {
+font-size: small;
+font-family: inherit;
+}
+    </style>
+
+  </head>
+
+<body class="page-template-default page page-id-186 page-child parent-pageid-11 x-integrity x-integrity-light x-navbar-fixed-top-active x-full-width-layout-active x-full-width-active x-post-meta-disabled x-page-title-disabled x-v4_1_1 cornerstone-v1_0_6">
+
+  
+  <div id="top" class="site">
+
+  
+  
+  <header class="masthead masthead-stacked" role="banner">
+    
+    
+
+  <div class="x-logobar">
+    <div class="x-logobar-inner">
+      <div class="x-container max width">
+        
+
+<a href="../index.html" class="x-brand img" title="">
+  <img src="../wp-content/uploads/2015/10/logo1.png" alt=""></a>
+
+<a href="http://www.ethz.ch/" class="x-brand img" title="ETH Zürich" target="_blank">
+  <img class="ethlogo" src="../wp-content/uploads/2015/10/logo-ethz.png" alt=""/>
+</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="x-navbar-wrap">
+    <div class="x-navbar">
+      <div class="x-navbar-inner">
+        <div class="x-container max width">
+          
+<a href="#" class="x-btn-navbar collapsed" data-toggle="collapse" data-target=".x-nav-wrap.mobile">
+  <i class="x-icon-bars" data-x-icon="&#xf0c9;"></i>
+  <span class="visually-hidden">Navigation</span>
+</a>
+
+<nav class="x-nav-wrap desktop" role="navigation">
+  <ul id="menu-main-menu" class="x-nav"><li id="menu-item-1728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1728"><a href="../index.html"><span>About</span></a></li>
+<li id="menu-item-1729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1729"><a href="../people.html"><span>People</span></a></li>
+<li id="menu-item-1730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1730"><a href="../publications.html"><span>Publications</span></a></li>
+<li id="menu-item-1751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1751"><a href="../research.html"><span>Research</span></a></li>
+<li id="menu-item-1557" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-1557"><a href="../teaching.html"><span>Teaching</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-1559"><a href="../teaching.html"><span>Courses</span></a></li>
+	<li id="menu-item-1558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1558"><a href="master-thesis.html"><span>Master Thesis</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733"><a href="../openings.html"><span>Openings</span></a></li>
+<li id="menu-item-1732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="../contact.html"><span>Contact</span></a></li>
+</ul></nav>
+
+<div class="x-nav-wrap mobile collapse">
+  <ul id="menu-main-menu-1" class="x-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1728"><a href="../index.html"><span>About</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1729"><a href="../people.html"><span>People</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1730"><a href="../publications.html"><span>Publications</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1751"><a href="../research.html"><span>Research</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-1557"><a href="../teaching.html"><span>Teaching</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-1559"><a href="../teaching.html"><span>Courses</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1558"><a href="master-thesis.html"><span>Master Thesis</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733"><a href="../openings.html"><span>Openings</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="../contact.html"><span>Contact</span></a></li>
+</ul></div>        </div>
+      </div>
+    </div>
+  </div>
+
+    
+    </header>
+
+    
+
+  <div class="x-container max width offset">
+    <div class="x-main full" role="main">
+
+              
+<article id="post-186" class="post-186 page type-page status-publish hentry no-post-thumbnail">
+  <div class="entry-featured">
+      </div>
+  <div class="entry-wrap">
+                  
+
+
+<div class="entry-content content">
+
+
+  <h4  class="h-custom-headline h4 accent" ><span>Data Mining: Learning from Large Data Sets
+</span></h4>
+Many scientific and commercial applications require us to obtain insights from massive, high-dimensional data sets. In this graduate-level course, students will learn to apply, analyze and evaluate principled, state-of-the-art techniques from statistics, algorithms and discrete and convex optimization for learning from such large data sets. VVZ information is available <a href="http://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheitPre.do?lerneinheitId=101979&amp;semkez=2015W&amp;lang=en">here</a>.
+<hr  class="x-clear" >
+
+<h5  class="h-custom-headline h5 accent" ><span>Syllabus</span></h5>
+<div class="table-responsive"><table  style="width:100%; "  class="easy-table easy-table-default las-table" border="0">
+<thead>
+<tr><th >Date</th>
+<th >Topics</th>
+<th >Tutorials</th>
+<th >Exercises</th>
+<th >Solutions</th>
+</tr>
+</thead>
+<tbody>
+<tr><td >Sep 17</td>
+<td ><a href="../courses/datamining-f15/slides/dm-01-introduction-annotated.html">Introduction; MapReduce</a></td>
+<td >-</td>
+<td >-</td>
+<td >-</td>
+</tr>
+
+<tr><td >Sep 24</td>
+<td ><a href="../courses/datamining-f15/slides/dm-02-minhash-annotated.html">Approximate Retrieval; Min-hashing</a></td>
+<td ><a href="../courses/datamining-f15/recitation/tutorial1.html">[pdf]</a></td>
+<td ><a href="../courses/datamining-f15/hw/hw1.html">[pdf]</a><a href="../courses/datamining-f15/hw/hw1-data.html">[zip]</a></td>
+<td ><a href="../courses/datamining-f15/hw/hw1-sol.html">[pdf]</a></td>
+</tr>
+
+<tr><td >Oct 1</td>
+<td ><a href="../courses/datamining-f15/slides/dm-03-lsh-annotated.html">Locality sensitive hashing</a></td>
+<td >-</td>
+<td >-</td>
+<td >-</td>
+</tr>
+
+<tr><td >Oct 8</td>
+<td ><a href="../courses/datamining-f15/slides/dm-04-classification-annotated.html">SVMs; Online Convex Programming</a></td>
+<td ><a href="../courses/datamining-f15/recitation/tutorial2.html">[pdf]</a></td>
+<td ><a href="../courses/datamining-f15/hw/hw2.html">[pdf]</a></td>
+<td ><a href="../courses/datamining-f15/hw/hw2-sol.html">[zip]</a></td>
+</tr>
+
+<tr><td >Oct 15</td>
+<td ><a href="../courses/datamining-f15/slides/dm-05-ocp-annotated.html">Stochastic Gradient Descent</a></td>
+<td >-</td>
+<td >-</td>
+<td >-</td>
+</tr>
+
+<tr><td >Oct 22</td>
+<td ><a href="../courses/datamining-f15/slides/dm-06-adagrad-annotated.html">Adapting to Geometry</a></td>
+<td >-</td>
+<td ><a href="../courses/datamining-f15/hw/hw3.html">[pdf]</a><a href="../courses/datamining-f15/hw/hw3-sup.html">[zip]</a></td>
+<td ><a href="../courses/datamining-f15/hw/hw3-sol.html">[pdf]</a><a href="../courses/datamining-f15/hw/hw3-sol-sup.html">[zip]</a></td>
+</tr>
+
+<tr><td >Oct 29</td>
+<td ><a href="../courses/datamining-f15/slides/dm-07-nonlinear-annotated.html">Parallelization; Random Features</a></td>
+<td >-</td>
+<td >-</td>
+<td >-</td>
+</tr>
+
+<tr><td >Nov 5</td>
+<td ><a href="../courses/datamining-f15/slides/dm-08-active-annotated.html">Random Features; Active Learning</a></td>
+<td >-</td>
+<td ><a href="../courses/datamining-f15/hw/hw4.html">[pdf]</a></td>
+<td ><a href="../courses/datamining-f15/hw/hw4-sol.html">[pdf]</a></td>
+</tr>
+
+<tr><td >Nov 12</td>
+<td ><a href="../courses/datamining-f15/slides/dm-09-unsupervised-annotated.html">Large-scale unsupervised learning: k-means</a></td>
+<td >-</td>
+<td >-</td>
+<td >-</td>
+</tr>
+
+<tr><td >Nov 19</td>
+<td ><a href="../courses/datamining-f15/slides/dm-10-unsupervised2-annotated.html">Online k-means; Coresets</a></td>
+<td ><a href="../courses/datamining-f15/recitation/kmeans_pp.html">[ipynb]</a></td>
+<td ><a href="../courses/datamining-f15/hw/hw5.html">[pdf]</a></td>
+<td ><a href="../courses/datamining-f15/hw/hw5-sol.html">[pdf]</a></td>
+</tr>
+
+<tr><td >Nov 26</td>
+<td ><a href="../courses/datamining-f15/slides/dm-11-bandits-annotated.html">Multi-armed Bandits; LinUCB</a></td>
+<td ></td>
+<td >-</td>
+<td >-</td>
+</tr>
+
+<tr><td >Dec 3</td>
+<td ><a href="../courses/datamining-f15/slides/dm-12-bandits2-annotated.html">Contextual bandits; evaluation</a></td>
+<td ><a href="../courses/datamining-f15/recitation/tutorial-bandits.html">[ipynb]</a> <a href="../courses/datamining-f15/recitation/tutorial-bandits-2.html" target="_blank">[html]</a></td>
+<td ><a href="../courses/datamining-f15/hw/hw6.html">[pdf]</a></td>
+<td ><a href="../courses/datamining-f15/hw/hw6-sol.html">[pdf]</a></td>
+</tr>
+
+<tr><td >Dec 17</td>
+<td ><a href="../courses/datamining-f15/slides/dm-13-bandits3-annotated.html">Recommending lists: Submodular functions / bandits</a></td>
+<td >-</td>
+<td >-</td>
+<td >-</td>
+</tr>
+</tbody></table></div>
+
+<div  class="x-column x-sm x-3-4" style=""  >
+<h5  class="h-custom-headline h5 accent" ><span>Contact</span></h5>
+<div class="table-responsive"><table  style="width:100%; "  class="easy-table easy-table-default las-table" border="0">
+<tbody>
+<tr><td >Instructor</td>
+<td ><a href="../krausea.html">Prof. Andreas Krause</a></td>
+</tr>
+
+<tr><td >Head TA</td>
+<td ><a href="../people/olivier-bachem.html">Olivier Bachem</a></td>
+</tr>
+
+<tr><td >Assistants</td>
+<td ><a href="../people/josip-djolonga.html">Josip Djolonga</a>, <a href="../people/alkisg.html">Alkis Gotovos</a>, <a href="../people/baharanm.html">Baharan Mirzasoleiman</a>, <a href="../people/lucic.html">Mario Lučić</a>, <a href="../people/hamed-hassani.html">Hamed Hassani</a></li></td>
+</tr>
+
+<tr><td >Mailing List</td>
+<td >If you have any questions please send them to <a href="mailto:dm2015@lists.inf.ethz.ch">dm2015@lists.inf.ethz.ch</a> from your ethz.ch address.</td>
+</tr>
+</tbody></table></div>
+
+</div>
+
+<div  class="x-column x-sm x-1-4 last" style=""  >
+
+<h5  class="h-custom-headline h5 accent" ><span>Lectures</span></h5>
+<div class="table-responsive"><table  style="width:100%; "  class="easy-table easy-table-default las-table" border="0">
+<tbody>
+<tr><td >Thu</td>
+<td >13-15</td>
+<td >HG D 1.1</td>
+</tr>
+</tbody></table></div>
+<h5  class="h-custom-headline h5 accent" ><span>Tutorials</span></h5>
+<div class="table-responsive"><table  style="width:100%; "  class="easy-table easy-table-default las-table" border="0">
+<tbody>
+<tr><td >Thu 15-17</td>
+<td >HG D 3.2</td>
+</tr>
+
+<tr><td >Thu 15-17</td>
+<td >HG D 3.2</td>
+</tr>
+</tbody></table></div>
+
+</div>
+<hr  class="x-clear" >
+
+<h5  class="h-custom-headline h5 accent" ><span>News</span></h5>
+<ul>
+<li><b>Exam review session:</b> Wednesday, January 20th, 2016, 14.00-15.30, CAB G 61. We will answer questions that are sent by email to <a href="mailto:dm2015@lists.inf.ethz.ch">dm2015@lists.inf.ethz.ch</a> until Sunday, January 17th, 2016.</li>
+<li>On the <a href="http://project.las.ethz.ch/login">project server</a>, we have released preliminary project grades for all groups.</li>
+<li>We have posted two old exams below to help you prepare for the exam.</li>
+<li><b>Web site updated:</b> If you can&#8217;t download some of the materials, please clear your browser cache.</li>
+<li>First class on 17.9. First tutorial/recitation on 24.9.</li>
+<li>To obtain the <b>password</b> please <a href="https://sslvpn.ethz.ch/+CSCO+00756767633A2F2F796E662E7267756D2E7075++/courses/datamining-f15/pw/pw.txt">click here</a> and login using your <tt>nethz</tt> account or login using the ETH VPN client and <a href="../courses/datamining-f15/pw/pw.html">click here</a>.
+</li>
+</ul>
+<h5  class="h-custom-headline h5 accent" ><span>Topics</span></h5>
+<ul>
+<li>Dealing with large data (Data centers; Map-Reduce/Hadoop; Amazon Mechanical Turk)
+</li><li>Fast nearest neighbor methods (Shingling, locality sensitive hashing)
+</li><li>Online learning (Online optimization and regret minimization, online convex programming, applications to large-scale Support Vector Machines)
+</li><li>Multi-armed bandits (exploration-exploitation tradeoffs, applications to online advertising and relevance feedback)
+</li><li>Active learning (uncertainty sampling, pool-based methods, label complexity)
+</li><li>Dimension reduction (random projections, nonlinear methods)
+</li><li>Data streams (Sketches, coresets, applications to online clustering)
+</li><li>Recommender systems
+</li></ul>
+
+<h5  class="h-custom-headline h5 accent" ><span>Exercises</span></h5>
+The exercise problems will include theoretical and programming problems. Please note that it is not mandatory to submit solutions. We will publish exercise solutions after one week. If you choose to submit:
+<ul>
+  <li>Send a soft copy of the exercise from your <tt>ethz.ch</tt> address to
+    <a href="mailto:dm2015@lists.inf.ethz.ch">dm2015@lists.inf.ethz.ch</a>. This can be latex, but also a simple scan or even a picture of a hand-written solution.</li>
+  <li>Please do not submit hard copies of your solutions.</li>
+</ul>
+<h5  class="h-custom-headline h5 accent" ><span>Project</span></h5>
+Part of the coursework will be a project, carried out in groups of up to 3 students. The goal of this project is to get hands-on experience in machine learning tasks. The project grade will constitute 30% of the total grade. More details on the project will be given in the tutorials.
+Register your team <a href="http://project.las.ethz.ch/register"> here</a>. The project details are displayed after you login <a href="http://project.las.ethz.ch/login">here</a>.
+<h5  class="h-custom-headline h5 accent" ><span>Exam</span></h5>
+The mode of examination is written, 120 minutes length. The language of examination is English. As written aids, you can bring two A4 pages (i.e. one A4 sheet of paper), either handwritten or 11 point minimum font size. The written exam will constitute 70% of the total grade.
+
+<h5  class="h-custom-headline h5 accent" ><span>Old Exam</span></h5>
+You may download two previous exams here: <a href="../courses/datamining-f15/hw/dm-exam-2013.html">[2013]</a> <a href="../courses/datamining-f15/hw/dm-exam-2014.html">[2014]</a>.
+
+<h5  class="h-custom-headline h5 accent" ><span>Resources</span></h5>
+
+<h6  class="h-custom-headline h6 accent" ><span>Text Book</span></h6>
+<ul>
+<li>J. Leskovec, A. Rajaraman, J. Ullman. Mining of Massive Data Sets. Available <a href="http://www.mmds.org/">here.</a></li>
+</ul>
+
+<h6  class="h-custom-headline h6 accent" ><span>References</span></h6>
+<ul>
+<li>Jeffrey Dean and Sanjay Ghemawat. MapReduce: Simplified Data Processing on Large Clusters. OSDI&#8217;04: Sixth Symposium on Operating System Design and Implementation, San Francisco, CA, December, 2004.</li>
+  <li>Jure Leskovec, Eric Horvitz. Planetary-Scale Views on a Large
+  Instant-Messaging Network. In Proceedings WWW 2008 [<a href="http://research.microsoft.com/~horvitz/leskovec_horvitz_www2008.pdf">pdf</a>]</li>
+  <li>Manuel Gomez Rodriguez, Jure Leskovec, Andreas Krause. Inferring
+  Networks of Diffusion and Influence, In Proc. ACM Conference on
+  Knowledge Discovery in Databases (KDD), 2010 [<a href="../files/gomezrodriguez10inferring.pdf">pdf</a>]</li>
+
+<li>James Hays, Alexei A. Efros. Scene Completion Using Millions of Photographs. ACM Transactions on Graphics (SIGGRAPH 2007). August 2007, vol. 26, No. 3.</li>
+<li>Kevin Beyer, Jonathan Goldstein, Raghu Ramakrishnan and Uri Shaft. When is &#8220;Nearest Neighbor&#8221; Meaningful?. Proc. 7th International Conference on Database Theory (ICDT 1999) LNCS 1540: 217-235.</li>
+<li>Aristides Gionis, Piotr Indyk, Rajeev Motwani. Similarity Search
+  in High Dimensions via Hashing [<a href="http://people.csail.mit.edu/indyk/vldb99.ps">ps</a>]. 25th
+  International Conference on Very Large Databases (VLDB) , 1999</li>
+<li>Martin Zinkevich. Online Convex Programming and Generalized
+  Infinitesimal Gradient Ascent. Proc. International Conference on
+  Machine Learning 2003 [<a href="http://webdocs.cs.ualberta.ca/~maz/publications/ICML03.pdf">pdf</a>]</li>
+<li>Elad Hazan, Amit Agarwal, Satyen Kale. Logarithmic Regret Algorithms for Online Convex Optimization. 
+Machine Learning Journal Volume 69 , Issue 2-3 Pages: 169 &#8211; 192 [<a href="http://ie.technion.ac.il/~ehazan/papers/log-journal.pdf">pdf</a>]</li>
+<li>John Duchi, Elad Hazan, and Yoram Singer. Adaptive subgradient methods for online learning and stochastic optimization. The Journal of Machine Learning Research 12 (2011): 2121-2159. [<a href="http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf" target="_blank">pdf</a>]</li>
+<li>Martin Zinkevich, Markus Weimer, Alex Smola,  Lihong
+Li. Parallelized Stochastic Gradient Descent. Advances in Neural
+Information Processing Systems 23, 2010 [<a href="http://books.nips.cc/papers/files/nips23/NIPS2010_1162.pdf">pdf</a>]</li>
+<li>Feng Niu, Benjamin Recht, Christopher Re, and Stephen
+J. Wright. HOGWILD!: A Lock-Free Approach to Parallelizing Stochastic
+Gradient Descent. Advances in Neural
+Information Processing Systems 24, 2011 [<a href="http://papers.nips.cc/paper/4390-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent.pdf">pdf</a>]
+</li>
+<li>Jeffrey Dean, Greg Corrado, Rajat Monga, Kai Chen, Matthieu Devin, Mark Mao, Andrew Senior et al. Large scale distributed deep networks. In Advances in Neural Information Processing Systems, 2012. [<a href="http://research.google.com/archive/large_deep_networks_nips2012.pdf" target="_blank">pdf</a>]</li>
+<li>Ali Rahimi, Ben Recht. Random Features for Large-Scale Kernel
+Machines. Advances in Neural
+Information Processing Systems 20, 2007 [<a href="http://www.eecs.berkeley.edu/~brecht/papers/07.rah.rec.nips.pdf">pdf</a>]</li>
+<li>Tianbao Yang, Yu-Feng Li, Mehrdad Mahdavi, Rong Jin, Zhi-Hua
+Zhou. Nyström Method vs Random Fourier Features: A Theoretical
+and Empirical Comparison. Advances in Neural
+Information Processing Systems 25, 2012 [<a href="http://papers.nips.cc/paper/4588-nystrom-method-vs-random-fourier-features-a-theoretical-and-empirical-comparison.pdf">pdf</a>]</li>
+<li>Ji Zhu,  Saharon Rosset,  Trevor Hastie,  Rob Tibshirani. L1 norm
+    support vector machines. Advances in Neural Information Processing
+    Systems 2003 [<a href="http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.68.8761">html</a>]</li>
+<li>John Duchi, Shai Shalev-Shwartz, Yoram Singer, Tushar
+    Chandra. Efficient Projections onto the l1-Ball for Learning in
+    High Dimensions. ICML 2008
+    [<a href="http://www.cs.berkeley.edu/~jduchi/projects/DuchiShSiCh08.pdf">pdf</a>]</li>
+<li>Nathan Ratliff, J. Andrew (Drew) Bagnell, and Martin
+    Zinkevich. (Online) Subgradient Methods for Structured
+    Prediction. AISTATS 2007 [<a href="http://www.ri.cmu.edu/pub_files/pub4/ratliff_nathan_2007_3/ratliff_nathan_2007_3.pdf">pdf</a>]</li>
+<li>Prateek Jain, Sudheendra Vijayanarasimhan, Kristen Grauman. Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning. Advances in Neural Information Processing Systems 2003 [<a href="http://www.cs.utexas.edu/~grauman/papers/jain_NIPS2010.pdf">pdf</a>]</li>
+<li>Simon Tong, Daphne Koller. Support Vector Machine Active Learning with Applications to Text Classification.  Proceedings of the Seventeenth International Conference on Machine Learning 2000 [<a href="http://www.robotics.stanford.edu/~stong/papers/tong_koller_ml00.ps">ps</a>]</li>
+<li>Dan Feldman, Morteza Monemizadeh, Christian Sohler.   A PTAS for
+k-Means Clustering Based on Weak Coresets. Proc. 23th Annu. ACM Symposium on Computational Geometry (SoCG) 2007 [<a href="http://people.csail.mit.edu/dannyf/kmeancoreset.pdf">pdf</a>]</li>
+<li>Chris Bishop. Pattern Recognition and Machine Learning. Springer, 2006. Chapter 9</li>
+<li>Percy Liang, Dan Klein. Online EM for Unsupervised Models.  Proceedings of the North American Chapter of the Association for Computational Linguistics (NAACL) 2009 [<a href="http://www.cs.berkeley.edu/~pliang/papers/online-naacl2009.pdf">pdf
+</a>]</li>
+<li>Dan Feldman, Matthew Faulkner, Andreas Krause. Scalable Training of Mixture Models via Coresets. In Proc. Neural Information Processing Systems, 2011 [<a href="../files/feldman11scalable.pdf">pdf
+</a>]</li>
+<li>Mario Lucic, Olivier Bachem, Andreas Krause. Strong Coresets for Hard and Soft Bregman Clustering with Applications to Exponential Family Mixtures, 2015 [<a href="http://arxiv.org/abs/1508.05243">pdf</a>]
+<li>Peter Auer, Nicolo Cesa-Bianchi, and Paul Fischer. Finite-time analysis of the multiarmed bandit problem. Machine Learning Journal, 2002.
+[<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.98.9211&amp;rep=rep1&amp;type=pdf">pdf</a>]</li>
+<li>Lihong Li, Wei Chu, John Langford, and Robert E. Schapire. A contextual-bandit approach to personalized news article
+recommendation.  In WWW-10, Raleigh, NC, April, 2010.
+[<a href="http://www.research.rutgers.edu/~lihong/pub/Li10Contextual.pdf">pdf</a>]</li>
+<li>Khalid El-Arini, Gaurav Veda, Dafna Shahaf and Carlos Guestrin.  Turning Down the Noise in the Blogosphere.   In Proc. of 15th International Conference on Knowledge Discovery and Data Mining (KDD 2009) [<a href="http://www.cs.cmu.edu/~kbe/tdn_kdd09.pdf">pdf</a>]</li>
+<li>Andreas Krause, Daniel Golovin. Submodular Function
+    Maximization. Survey [<a href="../files/krause12survey.pdf">pdf</a>]</li>
+<li>Matthew Streeter, Daniel Golovin. An Online Algorithm for
+    Maximizing Submodular Functions. In Proc. 23rd Annual Conference on Neural Information Processing Systems (NIPS), 2008 [<a href="http://www.cs.cmu.edu/~dgolovin/papers/nips08.pdf">pdf</a>]</li>
+<li>Matthew Streeter, Daniel Golovin, Andreas Krause. Online Learning of Assignments. In Proc. 23rd Annual Conference on Neural Information Processing Systems (NIPS), 2009 [<a href="../files/streeter09online.pdf">pdf</a>]</li>
+<li>Yisong Yue, Carlos Guestrin. Linear Submodular Bandits and their
+    Application to Diversified Retrieval. Neural Information
+    Processing Systems (NIPS), December, 2011 [<a href="http://www.yisongyue.com/publications/nips2011_submod_bandit.pdf">pdf</a>]</li>
+ <!--
+<li>Andrei Broder, Ravi Kumar, Farzin Maghoul, Prabhakar Raghavan, Sridhar Rajagopalan, Raymie Stata, Andrew Tomkins, Janet Wiener. Graph structure in the web [<a href="http://www9.org/w9cdrom/160/160.html">html</a>]. Proceedings of the 9th international World Wide Web conference on Computer networks 2000</li>
+<li>Zoltan Gy&ouml;ngyi, Hector Garcia-Molina, Jan Pedersen. Combating Web Spam with TrustRank. VLBD 2004 [<a href="http://www.vldb.org/conf/2004/RS15P3.PDF">pdf</a>] </li>
+<li>Niranjan Srinivas, Andreas Krause, Sham Kakade, Matthias Seeger. Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design. In Proc. International Conference on Machine Learning (ICML), 2010
+[<a
+href="/files/srinivas10gaussian.pdf">pdf</a>]</li>
+<!--<li>Eric Brochu, Tyson Brochu, and Nando de Freitas. A Bayesian Interactive Optimization Approach to Procedural Animation Design. ACM SIGGRAPH/Eurographics Symposium on Computer Animation. [<a href="http://haikufactory.com/files/sca2010.pdf">pdf</a>]</li>
+<li>Lihong Li, Wei Chu, John Langford, Robert Schapire. A Contextual-Bandit Approach to Personalized News Article Recommendation. In Proc. WWW 2010 [<a href="http://www.research.rutgers.edu/~lihong/pub/Li10Contextual.pdf">pdf</a>]</li>
+<li>Khalid El-Arini, Gaurav Veda, Dafna Shahaf and Carlos Guestrin.  Turning Down the Noise in the Blogosphere.   In Proc. of 15th International Conference on Knowledge Discovery and Data Mining (KDD 2009) [<a href="http://www.cs.cmu.edu/~kbe/tdn_kdd09.pdf">pdf</a>]</li>
+<li>Matthew Streeter, Daniel Golovin, Andreas Krause. Online Learning of Assignments. In Proc. 23rd Annual Conference on Neural Information Processing Systems (NIPS), 2009 [<a href="/files/streeter09online.pdf">pdf</a>]</li>
+<li>Andreas Krause, Carlos Guestrin. Beyond Convexity - Submodularity in Machine Learning. Tutorial at ICML 2008.  [<a href="http://submodularity.org/submodularity-slides.pdf">pdf</a>]</li>-->
+</ul>
+  
+
+</div>
+
+  </div>
+</article>        
+      
+    </div>
+
+    
+
+
+  </div>
+
+
+
+  
+    
+
+  <a class="x-scroll-top right fade" href="#top" title="Back to Top">
+    <i class="x-icon-angle-up" data-x-icon="&#xf106;"></i>
+  </a>
+
+  <script>
+
+  jQuery(document).ready(function($) {
+
+    var windowObj            = $(window);
+    var body                 = $('body');
+    var bodyOffsetBottom     = windowObj.scrollBottom();             // 1
+    var bodyHeightAdjustment = body.height() - bodyOffsetBottom;     // 2
+    var bodyHeightAdjusted   = body.height() - bodyHeightAdjustment; // 3
+    var scrollTopAnchor      = $('.x-scroll-top');
+
+    function sizingUpdate(){
+      var bodyOffsetTop = windowObj.scrollTop();
+      if ( bodyOffsetTop > ( bodyHeightAdjusted * 0.25 ) ) {
+        scrollTopAnchor.addClass('in');
+      } else {
+        scrollTopAnchor.removeClass('in');
+      }
+    }
+
+    windowObj.bind('scroll', sizingUpdate).resize(sizingUpdate);
+    sizingUpdate();
+
+    scrollTopAnchor.click(function(){
+      $('html,body').animate({ scrollTop: 0 }, 850, 'easeInOutExpo');
+      return false;
+    });
+
+  });
+
+  </script>
+
+  
+
+  
+    <footer class="x-colophon bottom" role="contentinfo">
+      <div class="x-container max width">
+
+                  
+<ul id="menu-main-menu-2" class="x-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1728"><a href="../index.html">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1729"><a href="../people.html">People</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1730"><a href="../publications.html">Publications</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1751"><a href="../research.html">Research</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-1557"><a href="../teaching.html">Teaching</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733"><a href="../openings.html">Openings</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="../contact.html">Contact</a></li>
+</ul>        
+        
+                  <div class="x-colophon-content">
+            <p>Learning & Adaptive Systems Group | Machine Learning Institute | ETH Zurich</p>          </div>
+        
+      </div>
+    </footer>
+
+  
+
+  
+  </div> <!-- END #top.site -->
+
+  
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/las.inf.ethz.ch\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/js/scripts972f.js?ver=5.0.1'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/widget.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/mouse.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/slider.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/datepicker.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='../wp-content/plugins/wordpress-file-upload-pro/vendor/datetimepicker/jquery-ui-timepicker-addon.minc8f9.js?ver=4.9.13'></script>
+<script type='text/javascript' src='../wp-content/themes/x/framework/js/dist/site/x-body.min0235.js?ver=4.1.1'></script>
+<script type='text/javascript' src='../wp-includes/js/comment-reply.minc8f9.js?ver=4.9.13'></script>
+<script type='text/javascript' src='../wp-content/plugins/cornerstone/assets/js/dist/site/cs-body.min0ba6.js?ver=1.0.6'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.minc8f9.js?ver=4.9.13'></script>
+
+
+  
+    <script id="x-customizer-js-custom">
+      jQuery(function($){
+
+    $(document).ready(function(){
+	$('.publication-dropdown').change(function() {
+	    window.location = this.value;
+	});
+	$('a.biburl').each(function() { // for each url "[bibtex]"
+	    var biburl = $(this);
+	    if (biburl.attr('bibtexbrowser') === undefined)
+	    {
+		biburl.click(function(ev) { // we change the click semantics
+		    ev.preventDefault(); // no open url
+		    if (biburl.nextAll('.purebibtex').length == 0) { // we don't have yet the bibtex data
+			var bibtexEntryUrl = $(this).attr('href');
+			$.ajax({url: bibtexEntryUrl,  dataType: 'html', success: function (data) { // we download it
+			    // elem is the element containing bibtex entry, creating a new element is required for Chrome and IE
+			    var elem = $('<pre class="purebibtex"/>');
+			    elem.text($('.purebibtex', data).text()); // both text() are required for IE
+			    // we add a link so that users clearly see that even with AJAX
+			    // there is still one URL per paper (which is important for crawlers and metadata)
+			    elem.appendTo(biburl.parent());
+			}, error: function() {window.location.href = biburl.attr('href');}});
+		    } else {biburl.nextAll('.purebibtex').toggle();}  // we toggle the view
+		});
+		biburl.attr('bibtexbrowser','done');
+	    } // end if biburl.bibtexbrowser;
+	});
+
+	$('a.absurl').each(function() { // for each url "[abstract]"
+	    var biburl = $(this);
+	    if (biburl.attr('bibtexbrowser') === undefined)
+	    {
+		biburl.click(function(ev) { // we change the click semantics
+		    ev.preventDefault(); // no open url
+		    if (biburl.nextAll('.pureabs').length == 0) { // we don't have yet the bibtex data
+			var bibtexEntryUrl = $(this).attr('href');
+			$.ajax({url: bibtexEntryUrl,  dataType: 'html', success: function (data) { // we download it
+			    // elem is the element containing bibtex entry, creating a new element is required for Chrome and IE
+			    var elem = $('<pre class="pureabs"/>');
+			    elem.text($('.bibentry-abstract', data).text()); // both text() are required for IE
+			    // we add a link so that users clearly see that even with AJAX
+			    // there is still one URL per paper (which is important for crawlers and metadata)
+			    elem.appendTo(biburl.parent());
+			}, error: function() {window.location.href = biburl.attr('href');}});
+		    } else {biburl.nextAll('.pureabs').toggle();}  // we toggle the view
+		});
+		biburl.attr('bibtexbrowser','done');
+	    } // end if biburl.bibtexbrowser;
+	});
+    });
+});
+    </script>
+
+  
+
+  
+</body>
+
+<!-- Mirrored from las.inf.ethz.ch/teaching/dm-f15 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Mar 2020 19:15:57 GMT -->
+</html>

@@ -1,0 +1,789 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9" lang="en-US"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+
+
+<!-- Mirrored from las.inf.ethz.ch/teaching/seminar-advanced-topics-in-machine-learning by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Mar 2020 19:15:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seminar: Advanced Topics in Machine Learning | Learning &amp; Adaptive Systems Group</title>
+<link rel="pingback" href="../xmlrpc.php"><link rel="shortcut icon" href="../wp-content/uploads/2015/10/favicon.ico"><link rel="apple-touch-icon-precomposed" href="../wp-content/uploads/2015/10/apple-icon-152x152.png"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="../wp-content/uploads/2015/10/ms-icon-144x144.png"><link rel='dns-prefetch' href='http://code.jquery.com/' />
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Learning &amp; Adaptive Systems Group &raquo; Feed" href="../feed" />
+<link rel="alternate" type="application/rss+xml" title="Learning &amp; Adaptive Systems Group &raquo; Comments Feed" href="../comments/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/las.inf.ethz.ch\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.13"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wordpress-file-upload-style-css'  href='../wp-content/plugins/wordpress-file-upload-pro/css/wordpress_file_upload_style_relaxed5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-file-upload-style-safe-css'  href='../wp-content/plugins/wordpress-file-upload-pro/css/wordpress_file_upload_style_safe_relaxed5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css-css'  href='http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css?ver=4.9.13' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-timepicker-addon-css-css'  href='../wp-content/plugins/wordpress-file-upload-pro/vendor/datetimepicker/jquery-ui-timepicker-addon.min5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='x-stack-css'  href='../wp-content/themes/x/framework/css/site/stacks/integrity-light0235.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='x-font-custom-css'  href='http://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C700%2C700italic%7CLato%3A400%7CLato%3A300%7CLato%3A300&amp;subset=latin%2Clatin-ext&amp;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='easy_table_style-css'  href='../wp-content/plugins/easy-table/themes/default/stylef24c.css?ver=1.6' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/wordpress-file-upload-pro/js/json2c8f9.js?ver=4.9.13'></script>
+<script type='text/javascript' src='../wp-content/plugins/wordpress-file-upload-pro/js/wordpress_file_upload_functionsc8f9.js?ver=4.9.13'></script>
+<script type='text/javascript' src='../wp-content/themes/x/framework/js/dist/site/x-head.min0235.js?ver=4.1.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/cornerstone/assets/js/dist/site/cs-head.min0ba6.js?ver=1.0.6'></script>
+<link rel='https://api.w.org/' href='../wp-json/index.html' />
+<link rel="canonical" href="seminar-advanced-topics-in-machine-learning.html" />
+<link rel='shortlink' href='../index652b.html?p=1538' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed0abb.json?url=https%3A%2F%2Flas.inf.ethz.ch%2Fteaching%2Fseminar-advanced-topics-in-machine-learning" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed3b65?url=https%3A%2F%2Flas.inf.ethz.ch%2Fteaching%2Fseminar-advanced-topics-in-machine-learning&amp;format=xml" />
+<style id="x-customizer-css-output" type="text/css">a,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,.x-topbar .p-info a:hover,.x-breadcrumb-wrap a:hover,.widget ul li a:hover,.widget ol li a:hover,.widget.widget_text ul li a,.widget.widget_text ol li a,.widget_nav_menu .current-menu-item > a,.x-widgetbar .widget ul li a:hover,.x-accordion-heading .x-accordion-toggle:hover,.x-comment-author a:hover,.x-comment-time:hover,.x-recent-posts a:hover .h-recent-posts{color:#ba720d;}a:hover,.widget.widget_text ul li a:hover,.widget.widget_text ol li a:hover,.x-twitter-widget ul li a:hover{color:#bf0f3e;}.rev_slider_wrapper,a.x-img-thumbnail:hover,.x-slider-container.below,.page-template-template-blank-3-php .x-slider-container.above,.page-template-template-blank-6-php .x-slider-container.above{border-color:#ba720d;}.entry-thumb:before,.pagination span.current,.flex-direction-nav a,.flex-control-nav a:hover,.flex-control-nav a.flex-active,.mejs-time-current,.x-dropcap,.x-skill-bar .bar,.x-pricing-column.featured h2,.h-comments-title small,.x-entry-share .x-share:hover,.x-highlight,.x-recent-posts .x-recent-posts-img:after{background-color:#ba720d;}.x-nav-tabs > .active > a,.x-nav-tabs > .active > a:hover{box-shadow:inset 0 3px 0 0 #ba720d;}.x-main{width:69.536945%;}.x-sidebar{width:25.536945%;}.x-topbar{background-color:transparent;}.x-topbar .p-info,.x-topbar .p-info a,.x-navbar .desktop .x-nav > li > a,.x-navbar .desktop .sub-menu a,.x-navbar .mobile .x-nav li > a,.x-breadcrumb-wrap a,.x-breadcrumbs .delimiter{color:#272727;}.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .x-active > a,.x-navbar .desktop .x-nav > .current-menu-item > a,.x-navbar .desktop .sub-menu a:hover,.x-navbar .desktop .sub-menu .x-active > a,.x-navbar .desktop .sub-menu .current-menu-item > a,.x-navbar .desktop .x-nav .x-megamenu > .sub-menu > li > a,.x-navbar .mobile .x-nav li > a:hover,.x-navbar .mobile .x-nav .x-active > a,.x-navbar .mobile .x-nav .current-menu-item > a{color:#b7b7b7;}.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .x-active > a,.x-navbar .desktop .x-nav > .current-menu-item > a{box-shadow:inset 0 4px 0 0 #ba720d;}.x-navbar .desktop .x-nav > li > a{height:50px;padding-top:20px;}.x-navbar-fixed-top-active .x-navbar-wrap{margin-bottom:1px;}.x-navbar .desktop .x-nav > li ul{top:35px;;}.x-comment-author,.x-comment-time,.comment-form-author label,.comment-form-email label,.comment-form-url label,.comment-form-rating label,.comment-form-comment label,.widget_calendar #wp-calendar caption,.widget.widget_rss li .rsswidget{font-family:Lato;font-weight:300;}.p-landmark-sub,.p-meta,input,button,select,textarea{font-family:Lato;}.x-brand,.x-brand:hover{color:#999;}.widget ul li a,.widget ol li a,.x-comment-time{color:#848484;}.widget_text ol li a,.widget_text ul li a{color:#ba720d;}.widget_text ol li a:hover,.widget_text ul li a:hover{color:#bf0f3e;}@media (max-width:979px){.x-navbar-fixed-top-active .x-navbar-wrap{margin-bottom:0;}.x-widgetbar{left:0;right:0;}}body{font-size:15px;font-style:normal;font-weight:300;color:#848484;background:#f3f3f3 url(../wp-content/uploads/2015/10/bg-integrity-1.png) center top repeat;}a:focus,select:focus,input[type="file"]:focus,input[type="radio"]:focus,input[type="submit"]:focus,input[type="checkbox"]:focus{outline:thin dotted #333;outline:5px auto #ba720d;outline-offset:-1px;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-style:normal;font-weight:300;letter-spacing:-1px;}.w-h{font-weight:300 !important;}.x-container.width{width:80%;}.x-container.max{max-width:1000px;}.x-main.full{float:none;display:block;width:auto;}@media (max-width:979px){.x-main.full,.x-main.left,.x-main.right,.x-sidebar.left,.x-sidebar.right{float:none;display:block;width:auto !important;}}.entry-header,.entry-content{font-size:15px;}.x-brand{font-style:normal;font-weight:300;letter-spacing:-3px;text-transform:uppercase;}.x-brand img{width:200px;}body,input,button,select,textarea{font-family:"Lato","Helvetica Neue",Helvetica,sans-serif;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Lato","Helvetica Neue",Helvetica,sans-serif;}.x-brand{font-family:"Lato","Helvetica Neue",Helvetica,sans-serif;}.x-navbar .x-nav > li > a{font-family:"Lato","Helvetica Neue",Helvetica,sans-serif;}.cfc-b-tx{color:#848484 !important;}.cfc-b-bd{border-color:#848484 !important;}.cfc-b-bg{background-color:#848484 !important;}.x-navbar{font-size:11px;}body.x-navbar-fixed-top-active .x-navbar-wrap{height:50px;}.x-navbar-inner{min-height:50px;}.x-logobar-inner{padding-top:0px;padding-bottom:0px;}.x-brand{font-size:38px;font-size:3.8rem;}.x-navbar .x-brand{margin-top:px;}.x-navbar .x-nav-wrap .x-nav > li > a{font-style:normal;font-weight:400;letter-spacing:2px;text-transform:uppercase;}.x-navbar .desktop .x-nav > li > a:not(.x-btn-navbar-woocommerce){padding-left:16px;padding-right:16px;}.x-navbar .desktop .x-nav > li > a > span{margin-right:-2px;}.x-btn-navbar{margin-top:19px;}.x-btn-navbar,.x-btn-navbar.collapsed{font-size:24px;}@media (max-width:979px){body.x-navbar-fixed-top-active .x-navbar-wrap{height:auto;}}.x-btn,.button,[type="submit"]{color:#fff;border-color:#ac1100;background-color:#dd9933;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);border-radius:0.25em;padding:0.579em 1.105em 0.842em;font-size:19px;}.x-btn:hover,.button:hover,[type="submit"]:hover{color:#fff;border-color:#600900;background-color:#dd3333;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);}.x-btn.x-btn-real,.x-btn.x-btn-real:hover{margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);}.x-btn.x-btn-real{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-real:hover{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-flat,.x-btn.x-btn-flat:hover{margin-bottom:0;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);box-shadow:none;}.x-btn.x-btn-transparent,.x-btn.x-btn-transparent:hover{margin-bottom:0;border-width:3px;text-shadow:none;text-transform:uppercase;background-color:transparent;box-shadow:none;}.h-widget:before,.x-flickr-widget .h-widget:before,.x-dribbble-widget .h-widget:before{position:relative;font-weight:normal;font-style:normal;line-height:1;text-decoration:inherit;-webkit-font-smoothing:antialiased;speak:none;}.h-widget:before{padding-right:0.4em;font-family:"fontawesome";}.x-flickr-widget .h-widget:before,.x-dribbble-widget .h-widget:before{top:0.025em;padding-right:0.35em;font-family:"foundationsocial";font-size:0.785em;}.widget_archive .h-widget:before{content:"\f040";top:-0.045em;font-size:0.925em;}.widget_calendar .h-widget:before{content:"\f073";top:-0.0825em;font-size:0.85em;}.widget_categories .h-widget:before,.widget_product_categories .h-widget:before{content:"\f02e";font-size:0.95em;}.widget_nav_menu .h-widget:before,.widget_layered_nav .h-widget:before{content:"\f0c9";}.widget_meta .h-widget:before{content:"\f0fe";top:-0.065em;font-size:0.895em;}.widget_pages .h-widget:before{content:"\f0f6";top:-0.065em;font-size:0.85em;}.widget_recent_reviews .h-widget:before,.widget_recent_comments .h-widget:before{content:"\f086";top:-0.065em;font-size:0.895em;}.widget_recent_entries .h-widget:before{content:"\f02d";top:-0.045em;font-size:0.875em;}.widget_rss .h-widget:before{content:"\f09e";padding-right:0.2em;}.widget_search .h-widget:before,.widget_product_search .h-widget:before{content:"\f0a4";top:-0.075em;font-size:0.85em;}.widget_tag_cloud .h-widget:before,.widget_product_tag_cloud .h-widget:before{content:"\f02c";font-size:0.925em;}.widget_text .h-widget:before{content:"\f054";padding-right:0.4em;font-size:0.925em;}.x-dribbble-widget .h-widget:before{content:"\f009";}.x-flickr-widget .h-widget:before{content:"\f010";padding-right:0.35em;}.widget_best_sellers .h-widget:before{content:"\f091";top:-0.0975em;font-size:0.815em;}.widget_shopping_cart .h-widget:before{content:"\f07a";top:-0.05em;font-size:0.945em;}.widget_products .h-widget:before{content:"\f0f2";top:-0.05em;font-size:0.945em;}.widget_featured_products .h-widget:before{content:"\f0a3";}.widget_layered_nav_filters .h-widget:before{content:"\f046";top:1px;}.widget_onsale .h-widget:before{content:"\f02b";font-size:0.925em;}.widget_price_filter .h-widget:before{content:"\f0d6";font-size:1.025em;}.widget_random_products .h-widget:before{content:"\f074";font-size:0.925em;}.widget_recently_viewed_products .h-widget:before{content:"\f06e";}.widget_recent_products .h-widget:before{content:"\f08d";top:-0.035em;font-size:0.9em;}.widget_top_rated_products .h-widget:before{content:"\f075";top:-0.145em;font-size:0.885em;}</style>
+    <style id="x-customizer-css-custom" type="text/css">
+      .file_item_clean .subfolder_dropdown {
+margin-bottom:0 !important;
+}
+
+#wordpress_file_upload_block_1 {
+padding-top:10px;
+border-top:1px #DDD solid;
+margin-top 10px;
+}
+
+#wordpress_file_upload_block_1 .file_td_clean {
+padding:0px;
+margin:0px;
+}
+
+#wordpress_file_upload_block_1 .file_input_textbox {
+margin:0; 
+padding:0;
+}
+
+
+.h-custom-headline {
+line-height: 1.5 !important;
+}
+
+.x-btn-navbar {
+margin-top: 2px;
+}
+
+.entry-content .x-ul-icons {
+margin-bottom: 0;
+}
+
+h6 {
+letter-spacing:0px !important;
+text-transform: none !important;
+}
+
+b {
+font-weight:400;
+
+}
+.entry-content {
+margin-top:0;
+}
+
+.las-table td {
+    border-top:none;
+}
+.las-table > thead > tr {
+font-weight: 400
+}
+
+.result h5 {
+margin-top:0px;
+}
+
+.las-publications .bibtitle {
+    font-weight:400 ! important;
+
+}
+.ethlogo {
+    width:120px !important;
+    margin-left:20%;
+}
+
+.result td {
+    border:none;
+}
+
+.x-portfolio .entry-info {
+    width:100%;
+}
+
+.bibcomment b {
+    font-weight:400;
+}
+
+.las-news li {
+    padding-bottom:7.5px;
+}
+
+.las-news {
+    margin: 0 0 1.313em 1.655em;
+}
+
+.entry-content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.two-up {
+    white-space: nowrap;
+}
+
+.news li {
+    padding-bottom:7.5px
+}
+
+.date {
+    background-color: blue;
+
+}
+.btb-header { }
+.sheader {
+    font-size:large;
+}
+
+.rheader {
+    font-size: large;
+}
+
+.bibref {
+    border:none;
+    vertical-align:top;
+}
+
+.bibtitle {
+    font-weight:normal;
+}
+
+.bibbooktitle {
+    font-style:italic;
+}
+
+.bibitem {
+    border:none;
+    padding-top:0px;
+}
+
+.entry-wrap {
+    padding:50px;
+    padding-top:15px;
+    padding-bottom:35px;
+}
+
+.bibauthor {}
+
+h4, h5, h6, .h4, .h5, .h6 {
+    margin-top: 20px;
+}
+.easy-table th, .easy-table td {
+    font-weight:inherit
+}
+
+.purebibtex {
+    font-size: small;
+    font-family: inherit;
+}
+
+.purebibtex,.pureabs {
+font-size: small;
+font-family: inherit;
+}
+    </style>
+
+  </head>
+
+<body class="page-template-default page page-id-1538 page-child parent-pageid-11 x-integrity x-integrity-light x-navbar-fixed-top-active x-full-width-layout-active x-full-width-active x-post-meta-disabled x-page-title-disabled x-v4_1_1 cornerstone-v1_0_6">
+
+  
+  <div id="top" class="site">
+
+  
+  
+  <header class="masthead masthead-stacked" role="banner">
+    
+    
+
+  <div class="x-logobar">
+    <div class="x-logobar-inner">
+      <div class="x-container max width">
+        
+
+<a href="../index.html" class="x-brand img" title="">
+  <img src="../wp-content/uploads/2015/10/logo1.png" alt=""></a>
+
+<a href="http://www.ethz.ch/" class="x-brand img" title="ETH Zürich" target="_blank">
+  <img class="ethlogo" src="../wp-content/uploads/2015/10/logo-ethz.png" alt=""/>
+</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="x-navbar-wrap">
+    <div class="x-navbar">
+      <div class="x-navbar-inner">
+        <div class="x-container max width">
+          
+<a href="#" class="x-btn-navbar collapsed" data-toggle="collapse" data-target=".x-nav-wrap.mobile">
+  <i class="x-icon-bars" data-x-icon="&#xf0c9;"></i>
+  <span class="visually-hidden">Navigation</span>
+</a>
+
+<nav class="x-nav-wrap desktop" role="navigation">
+  <ul id="menu-main-menu" class="x-nav"><li id="menu-item-1728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1728"><a href="../index.html"><span>About</span></a></li>
+<li id="menu-item-1729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1729"><a href="../people.html"><span>People</span></a></li>
+<li id="menu-item-1730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1730"><a href="../publications.html"><span>Publications</span></a></li>
+<li id="menu-item-1751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1751"><a href="../research.html"><span>Research</span></a></li>
+<li id="menu-item-1557" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-1557"><a href="../teaching.html"><span>Teaching</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1559" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-1559"><a href="../teaching.html"><span>Courses</span></a></li>
+	<li id="menu-item-1558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1558"><a href="master-thesis.html"><span>Master Thesis</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733"><a href="../openings.html"><span>Openings</span></a></li>
+<li id="menu-item-1732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="../contact.html"><span>Contact</span></a></li>
+</ul></nav>
+
+<div class="x-nav-wrap mobile collapse">
+  <ul id="menu-main-menu-1" class="x-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1728"><a href="../index.html"><span>About</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1729"><a href="../people.html"><span>People</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1730"><a href="../publications.html"><span>Publications</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1751"><a href="../research.html"><span>Research</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-1557"><a href="../teaching.html"><span>Teaching</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-1559"><a href="../teaching.html"><span>Courses</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1558"><a href="master-thesis.html"><span>Master Thesis</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733"><a href="../openings.html"><span>Openings</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="../contact.html"><span>Contact</span></a></li>
+</ul></div>        </div>
+      </div>
+    </div>
+  </div>
+
+    
+    </header>
+
+    
+
+  <div class="x-container max width offset">
+    <div class="x-main full" role="main">
+
+              
+<article id="post-1538" class="post-1538 page type-page status-publish hentry no-post-thumbnail">
+  <div class="entry-featured">
+      </div>
+  <div class="entry-wrap">
+                  
+
+
+<div class="entry-content content">
+
+
+  <h4  class="h-custom-headline h4 accent" ><span>Seminar &#8211; Advanced Topics in Machine Learning</span></h4>
+In this seminar, recent papers of the pattern recognition and machine learning literature are presented and discussed. Possible topics cover statistical models in computer vision, graphical models and machine learning. The seminar &#8220;Advanced Topics in Pattern Recognition&#8221; familiarizes students with recent developments in pattern recognition and machine learning. Original articles have to be presented and critically reviewed. The students will learn how to structure a scientific presentation in English which covers the key ideas of a scientific paper. An important goal of the seminar presentation is to summarize the essential ideas of the paper in sufficient depth while omitting details which are not essential for the understanding of the work. The presentation style will play an important role and should reach the level of professional scientific presentations.
+The seminar will cover a number of recent papers which have emerged as important contributions to the pattern recognition and machine learning literature. The topics will vary from year to year but they are centered on methodological issues in machine learning like new learning algorithms, ensemble methods or new statistical models for machine learning applications. Frequently, papers are selected from computer vision or bioinformatics &#8211; two fields, which relies more and more on machine learning methodology and statistical models.
+The papers will be presented in the first session of the seminar. VVZ information is available <a href="http://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheitPre.do?lerneinheitId=100981&amp;semkez=2015W&amp;lang=en">here</a>.
+<hr  class="x-clear" >
+
+<div  class="x-column x-sm x-3-4" style=""  >
+<h5  class="h-custom-headline h5 accent" ><span>Contact</span></h5>
+<div class="table-responsive"><table  style="width:100%; "  class="easy-table easy-table-default las-table" border="0">
+<tbody>
+<tr><td >Professors</td>
+<td ><a href="http://www.ml.inf.ethz.ch/people/person-detail.html?persid=113456">Joachim M. Buhmann</a>, <a href="http://www.da.inf.ethz.ch/people/ThomasHofmann/">Thomas Hofmann</a>, <a href="../krausea.html">Andreas Krause</a></td>
+</tr>
+
+<tr><td >Assistants</td>
+<td ><a href="../people/hamed-hassani.html">Hamed Hassani</a>, <a href="http://www.da.inf.ethz.ch/people/MartinJaggi/">Martin Jaggi</a>, <a href="http://www.ml.inf.ethz.ch/people/person-detail.html?persid=158811">Bauer Stefan</a></td>
+</tr>
+</tbody></table></div>
+</div>
+<div  class="x-column x-sm x-1-4 last" style=""  >
+<h5  class="h-custom-headline h5 accent" ><span>Lectures</span></h5>
+<div class="table-responsive"><table  style="width:100%; "  class="easy-table easy-table-default las-table" border="0">
+<tbody>
+<tr><td >Tue</td>
+<td >16-18</td>
+<td >CAB H 52</td>
+</tr>
+
+<tr><td >Thu</td>
+<td >16-18</td>
+<td >CHN G 22</td>
+</tr>
+</tbody></table></div>
+</div>
+<hr  class="x-clear" >
+
+<h5  class="h-custom-headline h5 accent" ><span>Tuesday Schedule</span></h5>
+<div class="table-responsive"><table  style="width:100%; "  class="easy-table easy-table-default las-table" border="0">
+<thead>
+<tr><th >Date</th>
+<th >Presenter</th>
+<th >Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr><td >20 Oct</td>
+<td >Melis</td>
+<td >Distributed Stochastic Variance Reduced Gradient Methods (2015)</td>
+</tr>
+
+<tr><td >20 Oct</td>
+<td >Jagerman</td>
+<td >Communication Efficient Distributed Machine Learning with the Parameter Server (2014)</td>
+</tr>
+
+<tr><td >27 Oct</td>
+<td >Pilgerstorfer</td>
+<td >Adaptive subgradient methods for online learning and stochastic optimization (2011)</td>
+</tr>
+
+<tr><td >27 Oct</td>
+<td >Mutny</td>
+<td >Stochastic dual coordinate ascent methods for regularized loss (2013)</td>
+</tr>
+
+<tr><td >03 Nov</td>
+<td >Karaivanov</td>
+<td >Beyond Convexity: Stochastic Quasi-Convex Optimization (2015)</td>
+</tr>
+
+<tr><td >03 Nov</td>
+<td >Wang</td>
+<td >Non-convex Robust PCA (2014)</td>
+</tr>
+
+<tr><td >10 Nov</td>
+<td >Holmer</td>
+<td >A stochastic PCA and SVD algorithm with an exponential convergence rate (2015)</td>
+</tr>
+
+<tr><td >10 Nov</td>
+<td >Herbst</td>
+<td >Beating the Perils of Non-Convexity: Guaranteed Training of Neural Networks using Tensor Methods (2015)</td>
+</tr>
+
+<tr><td >17 Nov</td>
+<td >Lianos</td>
+<td >Training Highly Multiclass Classifiers</td>
+</tr>
+
+<tr><td >17 Nov</td>
+<td >Helminger</td>
+<td >User Conditional Hashtag Prediction for Images</td>
+</tr>
+
+<tr><td >17 Nov</td>
+<td >Bahman</td>
+<td >Sequence to Sequence Learning with Neural Networks</td>
+</tr>
+
+<tr><td >24 Nov</td>
+<td >Spurr</td>
+<td >Show and tell: A neural image caption generator</td>
+</tr>
+
+<tr><td >24 Nov</td>
+<td >Marti</td>
+<td >A Critical Review of Recurrent Neural Networks for Sequence Learning</td>
+</tr>
+
+<tr><td >01 Dec</td>
+<td >Ciganovic</td>
+<td >Neural variational inference and learning in belief networks</td>
+</tr>
+
+<tr><td >01 Dec</td>
+<td >Ihnatov</td>
+<td >Neural Turing Machines</td>
+</tr>
+
+<tr><td >15 Dec</td>
+<td >Kan</td>
+<td >Zero-shot learning by convex combination of semantic embeddings</td>
+</tr>
+
+<tr><td >15 Dec</td>
+<td >Ghosh</td>
+<td >Giraffe: Using Deep Reinforcement Learning to Play Chess</td>
+</tr>
+</tbody></table></div>
+
+<h5  class="h-custom-headline h5 accent" ><span>Thursday Schedule</span></h5>
+<div class="table-responsive"><table  style="width:100%; "  class="easy-table easy-table-default las-table" border="0">
+<thead>
+<tr><th >Date</th>
+<th >Presenter</th>
+<th >Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr><td >15 Oct</td>
+<td >Van der Goten</td>
+<td >Adaptively Learning the Crowd Kernel (2011)</td>
+</tr>
+
+<tr><td >15 Oct</td>
+<td >Vollprecht</td>
+<td >Tuned Models of Peer Assessment in MOOCs (2013)</td>
+</tr>
+
+<tr><td >22 Oct</td>
+<td >Calderara</td>
+<td >Spectral Methods meet EM: A Provably Optimal Algorithm for Crowdsourcing (2014)</td>
+</tr>
+
+<tr><td >22 Oct</td>
+<td >Hamas</td>
+<td >Probabilistic Programming (ICSE 2014)</td>
+</tr>
+
+<tr><td >29 Oct</td>
+<td >Greuter</td>
+<td >A New Approach to Probabilistic Programming Inference (2014)</td>
+</tr>
+
+<tr><td >29 Oct</td>
+<td >Porvaznik</td>
+<td >Learning Probabilistic Programs (2014)</td>
+</tr>
+
+<tr><td >5 Nov</td>
+<td >Nikolov</td>
+<td >On the convexity of latent social network inference (2010)</td>
+</tr>
+
+<tr><td >5 Nov</td>
+<td >Minhaz</td>
+<td >Scalable Influence Estimation in Continuous-Time Diffusion Networks (2013)</td>
+</tr>
+
+<tr><td >12 Nov</td>
+<td >Koleva</td>
+<td >Uncovering the Temporal Dynamics of Diffusion Networks (2011)</td>
+</tr>
+
+<tr><td >12 Nov</td>
+<td >Carion</td>
+<td >A Tutorial on Bayesian Optimization of Expensive Cost Functions (2010)</td>
+</tr>
+
+<tr><td >19 Nov</td>
+<td >Song</td>
+<td >Practical Bayesian Optimization of Machine Learning Algorithms (2012)</td>
+</tr>
+
+<tr><td >19 Nov</td>
+<td >Wu</td>
+<td >Input Warping for Bayesian Optimization of Non-Stationary Functions (2014)</td>
+</tr>
+
+<tr><td >26 Nov</td>
+<td >Ma</td>
+<td >High Dimensional Bayesian Optimisation and Bandits via Additive Models (2015)</td>
+</tr>
+
+<tr><td >26 Nov</td>
+<td >Nishant</td>
+<td >Introduction to causal inference (2010)</td>
+</tr>
+
+<tr><td >3 Dec</td>
+<td >Abdelmessih</td>
+<td >Identifying the direction of causal time series (2009)</td>
+</tr>
+
+<tr><td >3 Dec</td>
+<td >Wang Jingyi</td>
+<td >Nonlinear causal discovery with additive noise models (2008)</td>
+</tr>
+
+<tr><td >17 Dec</td>
+<td >Demitri</td>
+<td >Probabilistic latent variable models for distinguishing between cause and effect (2010)</td>
+</tr>
+
+<tr><td >17 Dec</td>
+<td >Raiskin</td>
+<td >Towards a learning theory of cause-effect inference (2015)</td>
+</tr>
+</tbody></table></div>
+
+<h5  class="h-custom-headline h5 accent" ><span>Tuesday Topics and Papers</span></h5>
+
+<h6>Convex and Non-Convex Optimization</h6>
+<ul>
+  <li>Duchi, J., Hazan, E., &#038; Singer, Y. (2011). Adaptive subgradient methods for online learning and stochastic optimization. The Journal of Machine Learning Research, 12, 2121-2159.</li>
+  <li>Shalev-Shwartz, Shai, and Tong Zhang. Stochastic dual coordinate ascent methods for regularized loss. The Journal of Machine Learning Research 14.1 (2013): 567-599.</li>
+  <li>Defazio, Aaron, Francis Bach, and Simon Lacoste-Julien. SAGA: A fast incremental gradient method with support for non-strongly convex composite objectives. NIPS 2014.</li>
+  <li>Christopher De Sa, Christopher Re, Kunle Olukotun, Global Convergence of Stochastic Gradient Descent for Some Non-convex Matrix Problems, ICML 2015</li>
+  <li>Shamir, Ohad. A stochastic PCA and SVD algorithm with an exponential convergence rate. ICML 2015.</li>
+  <li>Bhojanapalli, S., and, A. K., &#038; Sanghavi, S. (2015). Dropping Convexity for Faster Semi-definite Optimization arXiv preprint</li>
+  <li>Praneeth Netrapalli, U N Niranjan, Sujay Sanghavi (2014). Non-convex Robust PCA, NIPS 2014</li>
+  <li>Elad Hazan, Kfir Levy, Shai Shalev-Shwartz (2015). Beyond Convexity: Stochastic Quasi-Convex Optimization NIPS 2015</li>
+</ul>
+
+<h6>Deep Learning, Embeddings, Multiclass Classification</h6>
+<ul>
+  <li>Denton, E., Weston, J., Paluri, M., Bourdev, L., &#038; Fergus, R. (2015). User Conditional Hashtag Prediction for Images. In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 1731-1740). ACM.</li>
+  <li>Vinyals, O., Toshev, A., Bengio, S., &#038; Erhan, D. (2014). Show and tell: A neural image caption generator. arXiv preprint</li>
+  <li>Maya R. Gupta, Samy Bengio, Jason Weston; Training Highly Multiclass Classifiers. The Journal of Machine Learning Research 15(Apr):1461−1492, 2014.</li>
+  <li>Norouzi, M., Mikolov, T., Bengio, S., Singer, Y., Shlens, J., Frome, A., &#8230; &#038; Dean, J. (2013). Zero-shot learning by convex combination of semantic embeddings. arXiv preprint</li>
+  <li>Lipton, Z. A Critical Review of Recurrent Neural Networks for Sequence Learning arXiv preprint</li>
+  <li>Majid Janzamin, Hanie Sedghi, Anima Anandkumar (2015). Beating the Perils of Non-Convexity: Guaranteed Training of Neural Networks using Tensor Methods arXiv preprint</li>
+  <li>Mnih, A., &#038; Gregor, K. (2014). Neural variational inference and learning in belief networks. ICML</li>
+  <li>Lai, M. (2015). Giraffe: Using Deep Reinforcement Learning to Play Chess. MSc Thesis</li>
+</ul>
+
+<h6>Variational Inference</h6>
+<ul><li>Hoffman, M. D., Blei, D. M., Wang, C., &#038; Paisley, J. (2013). Stochastic variational inference. The Journal of Machine Learning Research, 14(1), 1303-1347.	</li>
+  <li>Salimans, T. (2014). Markov chain Monte Carlo and variational inference: Bridging the gap. arXiv preprint.</li>
+  <li>Paisley, J., Blei, D., &#038; Jordan, M. (2012). Variational Bayesian inference with stochastic search. arXiv preprint arXiv:1206.6430.</li>
+  <li>Mnih, A., &#038; Gregor, K. (2014). Neural variational inference and learning in belief networks. ICML</li>
+  <li>Djolonga, J., &#038; Krause, A. (2014). From map to marginals: Variational inference in bayesian submodular models. In Advances in Neural Information Processing Systems (pp. 244-252).</li>
+  <li>Variational Message Passing. John Winn, Christopher M. Bishop. JMLR 2005</li>
+</ul>
+
+<h6>Distributed Optimization</h6>
+<ul><li>Lee, J., Ma, T., &#038; Lin, Q. (2015). Distributed Stochastic Variance Reduced Gradient Methods arXiv</li>
+  <li>H Mania, X Pan, D Papailiopoulos, B Recht, K Ramchandran, M I. Jordan (2015) Perturbed Iterate Analysis for Asynchronous Stochastic Optimization</li>
+  <li>Li, M., Andersen, D. G., Smola, A., &#038; Yu, K. (2014). Communication Efficient Distributed Machine Learning with the Parameter Server. NIPS 2014</li>
+  <li>Lee, C.-P., &#038; Roth, D. (2015). Distributed Box-Constrained Quadratic Optimization for Dual Linear SVM. ICML 2015.</li>
+</ul>
+<h5  class="h-custom-headline h5 accent" ><span>Thursday Topics and Papers</span></h5>
+
+<h6>Network Inference</h6>
+<ul><li>M. Gomez-Rodriguez, D. Balduzzi, B. Schölkopf. Uncovering the Temporal Dynamics of Diffusion Networks. The 28th International Conference on Machine Learning (ICML), 2011.</li>
+  <li>Seth Myers, and Jure Leskovec. On the convexity of latent social network inference. NIPS’10.</li>
+  <li>Scalable Influence Estimation in Continuous-Time Diffusion Networks. Nan Du, Le Song, Manuel Gomez Rodriguez, and Hongyuan Zha. NIPS 2013.</li>
+</ul>
+
+<h6>Learning meets optimization</h6>
+<ul><li>G. Papandreou and A. Yuille, Perturb-and-MAP Random Fields: Using Discrete Optimization to Learn and Sample from Energy Models, ICCV 2011</li>
+  <li>M. J. Wainwright, T. Jaakkola and A. S. Willsky (2005). A new class of upper bounds on the log partition function. IEEE Trans. on Information Theory</li>
+  <li>Submodular meets Structured: Finding Diverse Subsets in Exponentially-Large Structured Item Sets, Adarsh Prasad, Stefanie Jegelka, Dhruv Batra, NIPS 2014.</li>
+  <li>Active Learning as Non-Convex Optimization, Andrew Guillory, Erick Chastain, Jeff Bilmes, AISTATS 2009.</li>
+</ul>
+
+<h6>Bayesian optimization</h6>
+
+<ul><li>A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning. Eric Brochu, Vlad M. Cora and Nando de Freitas. eprint arXiv:1012.2599, pdf </li>
+  <li>Input Warping for Bayesian Optimization of Non-Stationary Functions, Jasper Snoek, Kevin Swersky, Richard S. Zemel, Ryan P. Adams. ICML’14</li>
+  <li>Bayesian Optimization with Unknown Constraints, Michael A. Gelbart, Jasper Snoek, Ryan P. Adams. UAI’14</li>
+  <li>Practical Bayesian Optimization of Machine Learning Algorithms. Jasper Snoek, Hugo Larochelle, and Ryan P. Adams. NIPS, 2012.</li>
+  <li>Bayesian Active Learning for Posterior Estimation.Kirthevasan Kandasamy, Jeff Schneider, and Barnabas Poczos. IJCAI, 2015.</li>
+  <li>High Dimensional Bayesian Optimisation and Bandits via Additive Models , Kirthevasan Kandasamy, Jeff Schneider, Barnabas Poczos, ICML 2015 </li>
+</ul>
+
+<h6>Probabilistic Programming</h6>
+<ul><li>Andrew Gordon, Thomas Henzinger, Aditya Nori, and Sriram Rajamani. Probabilistic Programming. ICSE, 2014.</li>
+  <li>A New Approach to Probabilistic Programming Inference, Wood, F., van de Meent, J. W., &#038; Mansinghka, V., AISTATS 2014</li>
+  <li>Learning Probabilistic Programs. Perov, Y., &#038; Wood, F.  arXiv preprint arXiv:1407.2646.  PDF</li>
+</ul>
+
+<h6>Learning and Economics / Game Theory</h6>
+<ul><li>Adaptively Learning the Crowd Kernel. Omer Tamuz, Ce Liu, Serge Belongie, Ohad Shamir, Adam Tauman Kalai. ICML’11.</li>
+  <li>Tuned Models of Peer Assessment in MOOCs. C. Piech, J. Huang, Z. Chen, C. Do, A. Ng, D. Koller. EDM’13.</li>
+  <li>Spectral Methods meet EM: A Provably Optimal Algorithm for Crowdsourcing. Y. Zhang , X. Chen, D. Zhou, M. Jordan. NIPS&#8217;14.</li>
+</ul>
+
+<h6>Causality</h6>
+<ul>
+  <li>Spirtes, Peter. &#8220;Introduction to causal inference.&#8221; The Journal of Machine Learning Research 11 (2010): 1643-1662 with additional examples from Guyon, Isabelle. &#8220;Practical feature selection: from correlation to causality.&#8221; NATO Science for Peace and Security 19 (2008): 27-43. </li>
+  <li>Patrik O. Hoyer et al. &#8220;Nonlinear causal discovery with additive noise models&#8221; in Advances in Neural Information Processing Systems 21 (NIPS 2008)</li>
+  <li>Stegle, Oliver, et al. &#8220;Probabilistic latent variable models for distinguishing between cause and effect.&#8221; Advances in Neural Information Processing Systems. 2010.</li>
+  <li>Peters, Janzing, Gretton and Schölkopf Detecting the Direction of Causal Time Series in ICML 2009</li>
+  <li>Lopez-Paz, David, et al. &#8220;Towards a learning theory of cause-effect inference.&#8221; Proceedings of the 32nd International Conference on Machine Learning, JMLR: W&#038;CP, Lille, France. 2015</li>
+</ul>
+  
+
+</div>
+
+  </div>
+</article>        
+      
+    </div>
+
+    
+
+
+  </div>
+
+
+
+  
+    
+
+  <a class="x-scroll-top right fade" href="#top" title="Back to Top">
+    <i class="x-icon-angle-up" data-x-icon="&#xf106;"></i>
+  </a>
+
+  <script>
+
+  jQuery(document).ready(function($) {
+
+    var windowObj            = $(window);
+    var body                 = $('body');
+    var bodyOffsetBottom     = windowObj.scrollBottom();             // 1
+    var bodyHeightAdjustment = body.height() - bodyOffsetBottom;     // 2
+    var bodyHeightAdjusted   = body.height() - bodyHeightAdjustment; // 3
+    var scrollTopAnchor      = $('.x-scroll-top');
+
+    function sizingUpdate(){
+      var bodyOffsetTop = windowObj.scrollTop();
+      if ( bodyOffsetTop > ( bodyHeightAdjusted * 0.25 ) ) {
+        scrollTopAnchor.addClass('in');
+      } else {
+        scrollTopAnchor.removeClass('in');
+      }
+    }
+
+    windowObj.bind('scroll', sizingUpdate).resize(sizingUpdate);
+    sizingUpdate();
+
+    scrollTopAnchor.click(function(){
+      $('html,body').animate({ scrollTop: 0 }, 850, 'easeInOutExpo');
+      return false;
+    });
+
+  });
+
+  </script>
+
+  
+
+  
+    <footer class="x-colophon bottom" role="contentinfo">
+      <div class="x-container max width">
+
+                  
+<ul id="menu-main-menu-2" class="x-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1728"><a href="../index.html">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1729"><a href="../people.html">People</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1730"><a href="../publications.html">Publications</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1751"><a href="../research.html">Research</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-1557"><a href="../teaching.html">Teaching</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1733"><a href="../openings.html">Openings</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="../contact.html">Contact</a></li>
+</ul>        
+        
+                  <div class="x-colophon-content">
+            <p>Learning & Adaptive Systems Group | Machine Learning Institute | ETH Zurich</p>          </div>
+        
+      </div>
+    </footer>
+
+  
+
+  
+  </div> <!-- END #top.site -->
+
+  
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/las.inf.ethz.ch\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/js/scripts972f.js?ver=5.0.1'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/widget.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/mouse.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/slider.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/datepicker.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='../wp-content/plugins/wordpress-file-upload-pro/vendor/datetimepicker/jquery-ui-timepicker-addon.minc8f9.js?ver=4.9.13'></script>
+<script type='text/javascript' src='../wp-content/themes/x/framework/js/dist/site/x-body.min0235.js?ver=4.1.1'></script>
+<script type='text/javascript' src='../wp-includes/js/comment-reply.minc8f9.js?ver=4.9.13'></script>
+<script type='text/javascript' src='../wp-content/plugins/cornerstone/assets/js/dist/site/cs-body.min0ba6.js?ver=1.0.6'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.minc8f9.js?ver=4.9.13'></script>
+
+
+  
+    <script id="x-customizer-js-custom">
+      jQuery(function($){
+
+    $(document).ready(function(){
+	$('.publication-dropdown').change(function() {
+	    window.location = this.value;
+	});
+	$('a.biburl').each(function() { // for each url "[bibtex]"
+	    var biburl = $(this);
+	    if (biburl.attr('bibtexbrowser') === undefined)
+	    {
+		biburl.click(function(ev) { // we change the click semantics
+		    ev.preventDefault(); // no open url
+		    if (biburl.nextAll('.purebibtex').length == 0) { // we don't have yet the bibtex data
+			var bibtexEntryUrl = $(this).attr('href');
+			$.ajax({url: bibtexEntryUrl,  dataType: 'html', success: function (data) { // we download it
+			    // elem is the element containing bibtex entry, creating a new element is required for Chrome and IE
+			    var elem = $('<pre class="purebibtex"/>');
+			    elem.text($('.purebibtex', data).text()); // both text() are required for IE
+			    // we add a link so that users clearly see that even with AJAX
+			    // there is still one URL per paper (which is important for crawlers and metadata)
+			    elem.appendTo(biburl.parent());
+			}, error: function() {window.location.href = biburl.attr('href');}});
+		    } else {biburl.nextAll('.purebibtex').toggle();}  // we toggle the view
+		});
+		biburl.attr('bibtexbrowser','done');
+	    } // end if biburl.bibtexbrowser;
+	});
+
+	$('a.absurl').each(function() { // for each url "[abstract]"
+	    var biburl = $(this);
+	    if (biburl.attr('bibtexbrowser') === undefined)
+	    {
+		biburl.click(function(ev) { // we change the click semantics
+		    ev.preventDefault(); // no open url
+		    if (biburl.nextAll('.pureabs').length == 0) { // we don't have yet the bibtex data
+			var bibtexEntryUrl = $(this).attr('href');
+			$.ajax({url: bibtexEntryUrl,  dataType: 'html', success: function (data) { // we download it
+			    // elem is the element containing bibtex entry, creating a new element is required for Chrome and IE
+			    var elem = $('<pre class="pureabs"/>');
+			    elem.text($('.bibentry-abstract', data).text()); // both text() are required for IE
+			    // we add a link so that users clearly see that even with AJAX
+			    // there is still one URL per paper (which is important for crawlers and metadata)
+			    elem.appendTo(biburl.parent());
+			}, error: function() {window.location.href = biburl.attr('href');}});
+		    } else {biburl.nextAll('.pureabs').toggle();}  // we toggle the view
+		});
+		biburl.attr('bibtexbrowser','done');
+	    } // end if biburl.bibtexbrowser;
+	});
+    });
+});
+    </script>
+
+  
+
+  
+</body>
+
+<!-- Mirrored from las.inf.ethz.ch/teaching/seminar-advanced-topics-in-machine-learning by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Mar 2020 19:15:59 GMT -->
+</html>

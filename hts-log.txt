@@ -1,0 +1,639 @@
+HTTrack3.49-2 launched on Sat, 07 Mar 2020 13:43:42 at https://las.inf.ethz.ch https://las.inf.ethz.ch
+(httrack https://las.inf.ethz.ch -o https://las.inf.ethz.ch )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:43:45	Warning: 	Note: due to https://las.inf.ethz.ch remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+13:45:28	Error: 	"Method Not Allowed" (405) at link https://las.inf.ethz.ch/xmlrpc.php (from https://las.inf.ethz.ch/)
+14:02:00	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/pdf/2002.12613.pdf (from https://las.inf.ethz.ch/)
+14:02:00	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/2002.05551 (from https://las.inf.ethz.ch/)
+14:02:10	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/people/yuxin-chen (from https://las.inf.ethz.ch/)
+14:02:10	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/people/josip-djolonga (from https://las.inf.ethz.ch/)
+14:02:13	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/people/baharanm (from https://las.inf.ethz.ch/)
+14:02:13	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/people/adish-singla (from https://las.inf.ethz.ch/)
+14:02:13	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/people/hamed-hassani (from https://las.inf.ethz.ch/)
+14:02:13	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/people/lucic (from https://las.inf.ethz.ch/)
+14:02:13	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/people/olivier-bachem (from https://las.inf.ethz.ch/)
+14:02:40	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/wp-content/themes/x/framework/css/site/stacks/closedhand.cur (from https://las.inf.ethz.ch/wp-content/themes/x/framework/css/site/stacks/integrity-light.css?ver=4.1.1)
+14:02:43	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=9
+14:02:43	Warning: 	File has moved from https://las.inf.ethz.ch/?p=9 to https://las.inf.ethz.ch/people
+14:03:47	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=7
+14:03:47	Warning: 	File has moved from https://las.inf.ethz.ch/?p=7 to https://las.inf.ethz.ch/publications
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1902.04783 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/pdf/1907.07035 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1907.08982 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1907.01329 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1903.04626 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1903.00950 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/doi.org/10.1145/3306204 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/files/UniAccel_nips_2018.pdf (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/pdf/1802.09110.pdf (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/ericschulz.github.io/publications/Schulz2018tutorial.pdf (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/ericschulz.github.io/publications/Schulz2017safeopt.pdf (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/pdf/1705.02005.pdf (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/openreview.net/forum?id=H1Yp-j1Cb (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/doi.org/10.1214/17-EJS1336SI (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1709.01006 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/pdf/1703.02100.pdf (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/academic.oup.com/imaiai/article/7/2/183/4093611?guestAccessKey=6bb4286e-0303-4701-a98c-7bc1ac9e509f (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1703.05452 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1705.10499 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/doi.org/10.3929/ethz-b-000217967 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/doi.org/10.3929/ethz-b-000220255 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/doi.org/10.3929/ethz-b-000000139 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1701.07266 (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/gotovos15sampling-talk (from https://las.inf.ethz.ch/publications)
+14:03:47	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/gotovos15sampling-poster (from https://las.inf.ethz.ch/publications)
+14:03:48	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/sui15icml-talk (from https://las.inf.ethz.ch/publications)
+14:03:48	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/doi.org/10.3929/ethz-a-010717341 (from https://las.inf.ethz.ch/publications)
+14:03:48	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/vanchinathan14EfficientPM-Extended.pdf (from https://las.inf.ethz.ch/publications)
+14:03:49	Warning: 	Found for las.inf.ethz.ch/robots.txt
+14:03:49	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/robots.txt and https://las.inf.ethz.ch/robots.txt
+14:03:49	Warning: 	Warning moved treated for las.inf.ethz.ch/robots.txt (real one is https://las.inf.ethz.ch/robots.txt)
+14:03:49	Warning: 	Found for las.inf.ethz.ch/files/gomes10discriminative-talk.key/
+14:03:49	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/files/gomes10discriminative-talk.key/ and https://las.inf.ethz.ch/files/gomes10discriminative-talk.key/
+14:03:49	Warning: 	File has moved from las.inf.ethz.ch/files/gomes10discriminative-talk.key/ to https://las.inf.ethz.ch/files/gomes10discriminative-talk.key/
+14:03:49	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=28
+14:03:49	Warning: 	File has moved from https://las.inf.ethz.ch/?p=28 to https://las.inf.ethz.ch/research
+14:03:49	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flas.inf.ethz.ch%2Fresearch (from https://las.inf.ethz.ch/research)
+14:03:49	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flas.inf.ethz.ch%2Fresearch&format=xml (from https://las.inf.ethz.ch/research)
+14:04:05	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=11
+14:04:05	Warning: 	File has moved from https://las.inf.ethz.ch/?p=11 to https://las.inf.ethz.ch/teaching
+14:14:34	Warning: 	Found for las.inf.ethz.ch/courses/lis-s15/
+14:14:34	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/lis-s15/ and https://las.inf.ethz.ch/courses/lis-s15/
+14:14:34	Warning: 	File has moved from las.inf.ethz.ch/courses/lis-s15/ to https://las.inf.ethz.ch/courses/lis-s15/
+14:15:59	Warning: 	Found for las.inf.ethz.ch/courses/pml-s14/
+14:15:59	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/pml-s14/ and https://las.inf.ethz.ch/courses/pml-s14/
+14:15:59	Warning: 	File has moved from las.inf.ethz.ch/courses/pml-s14/ to https://las.inf.ethz.ch/courses/pml-s14/
+14:15:59	Warning: 	Found for las.inf.ethz.ch/courses/datamining-s14/
+14:15:59	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/datamining-s14/ and https://las.inf.ethz.ch/courses/datamining-s14/
+14:15:59	Warning: 	File has moved from las.inf.ethz.ch/courses/datamining-s14/ to https://las.inf.ethz.ch/courses/datamining-s14/
+14:15:59	Warning: 	Found for las.inf.ethz.ch/courses/pai-f14/
+14:15:59	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/pai-f14/ and https://las.inf.ethz.ch/courses/pai-f14/
+14:15:59	Warning: 	File has moved from las.inf.ethz.ch/courses/pai-f14/ to https://las.inf.ethz.ch/courses/pai-f14/
+14:15:59	Warning: 	Found for las.inf.ethz.ch/courses/datamining-s13/
+14:15:59	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/datamining-s13/ and https://las.inf.ethz.ch/courses/datamining-s13/
+14:15:59	Warning: 	File has moved from las.inf.ethz.ch/courses/datamining-s13/ to https://las.inf.ethz.ch/courses/datamining-s13/
+14:15:59	Warning: 	Found for las.inf.ethz.ch/courses/ml-f13/
+14:15:59	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/ml-f13/ and https://las.inf.ethz.ch/courses/ml-f13/
+14:15:59	Warning: 	File has moved from las.inf.ethz.ch/courses/ml-f13/ to https://las.inf.ethz.ch/courses/ml-f13/
+14:15:59	Warning: 	Found for las.inf.ethz.ch/courses/pai-f13/
+14:15:59	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/pai-f13/ and https://las.inf.ethz.ch/courses/pai-f13/
+14:15:59	Warning: 	File has moved from las.inf.ethz.ch/courses/pai-f13/ to https://las.inf.ethz.ch/courses/pai-f13/
+14:15:59	Warning: 	Found for las.inf.ethz.ch/courses/datamining-s12/
+14:15:59	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/datamining-s12/ and https://las.inf.ethz.ch/courses/datamining-s12/
+14:15:59	Warning: 	File has moved from las.inf.ethz.ch/courses/datamining-s12/ to https://las.inf.ethz.ch/courses/datamining-s12/
+14:15:59	Warning: 	Found for las.inf.ethz.ch/courses/pai-f12/
+14:15:59	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/pai-f12/ and https://las.inf.ethz.ch/courses/pai-f12/
+14:15:59	Warning: 	File has moved from las.inf.ethz.ch/courses/pai-f12/ to https://las.inf.ethz.ch/courses/pai-f12/
+14:15:59	Warning: 	Found for las.inf.ethz.ch/courses/datamining-s11/
+14:15:59	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/datamining-s11/ and https://las.inf.ethz.ch/courses/datamining-s11/
+14:15:59	Warning: 	File has moved from las.inf.ethz.ch/courses/datamining-s11/ to https://las.inf.ethz.ch/courses/datamining-s11/
+14:15:59	Warning: 	Found for las.inf.ethz.ch/courses/pai-f11/
+14:15:59	Warning: 	Redirected link is identical because of 'URL Hack' option: las.inf.ethz.ch/courses/pai-f11/ and https://las.inf.ethz.ch/courses/pai-f11/
+14:15:59	Warning: 	File has moved from las.inf.ethz.ch/courses/pai-f11/ to https://las.inf.ethz.ch/courses/pai-f11/
+14:15:59	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=1078
+14:15:59	Warning: 	File has moved from https://las.inf.ethz.ch/?p=1078 to https://las.inf.ethz.ch/teaching/master-thesis
+14:15:59	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=882
+14:15:59	Warning: 	File has moved from https://las.inf.ethz.ch/?p=882 to https://las.inf.ethz.ch/openings
+14:15:59	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=174
+14:15:59	Warning: 	File has moved from https://las.inf.ethz.ch/?p=174 to https://las.inf.ethz.ch/contact
+14:15:59	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=958
+14:15:59	Warning: 	File has moved from https://las.inf.ethz.ch/?p=958 to https://las.inf.ethz.ch/krausea
+14:15:59	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2279
+14:15:59	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2279 to https://las.inf.ethz.ch/people/kfir-levy
+14:15:59	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=594
+14:15:59	Warning: 	File has moved from https://las.inf.ethz.ch/?p=594 to https://las.inf.ethz.ch/people/felix-berkenkamp
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3782
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3782 to https://las.inf.ethz.ch/people/ilija-bogunovic
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3935
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3935 to https://las.inf.ethz.ch/people/carljohann-simongabriel
+14:16:01	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/publikationen.uni-tuebingen.de/xmlui/handle/10900/87256 (from https://las.inf.ethz.ch/people/carljohann-simongabriel)
+14:16:01	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/www.biorxiv.org/content/early/2016/08/11/068999 (from https://las.inf.ethz.ch/people/carljohann-simongabriel)
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3943
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3943 to https://las.inf.ethz.ch/people/andisheh-amrollahi
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2665
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2665 to https://las.inf.ethz.ch/people/zalan-borsos
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3683
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3683 to https://las.inf.ethz.ch/people/charlotte-bunne
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2675
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2675 to https://las.inf.ethz.ch/people/sebastian-curi
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3841
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3841 to https://las.inf.ethz.ch/people/mohammad-reza-karimi
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2183
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2183 to https://las.inf.ethz.ch/people/johannes-kirschner
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=4189
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=4189 to https://las.inf.ethz.ch/people/david-lindner
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2888
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2888 to https://las.inf.ethz.ch/people/anastasia-makarova
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3158
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3158 to https://las.inf.ethz.ch/people/mojmir-mutny
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3419
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3419 to https://las.inf.ethz.ch/people/max-paulus
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3786
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3786 to https://las.inf.ethz.ch/people/jonas-rothfuss
+14:16:01	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/ssrn.com/abstract=3437281 (from https://las.inf.ethz.ch/people/jonas-rothfuss)
+14:16:01	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1810.06784.pdf (from https://las.inf.ethz.ch/people/jonas-rothfuss)
+14:16:01	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/pdf/1903.00954.pdf (from https://las.inf.ethz.ch/people/jonas-rothfuss)
+14:16:01	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/https:/arxiv.org/abs/1801.04134.pdf (from https://las.inf.ethz.ch/people/jonas-rothfuss)
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2024
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2024 to https://las.inf.ethz.ch/people/aytunc-sahin
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2275
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2275 to https://las.inf.ethz.ch/people/matteo-turchetta
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3417
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3417 to https://las.inf.ethz.ch/people/philippe-wenk
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=1043
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=1043 to https://las.inf.ethz.ch/research/large-scale-machine-learning
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=808
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=808 to https://las.inf.ethz.ch/research/probabilistic-submodular-models
+14:16:01	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=168
+14:16:01	Warning: 	File has moved from https://las.inf.ethz.ch/?p=168 to https://las.inf.ethz.ch/research/sequential-decision-making
+14:16:02	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/research/files/golovin11dynamic.pptx (from https://las.inf.ethz.ch/research/sequential-decision-making)
+14:16:02	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/research/files/krause11randomized.pptx (from https://las.inf.ethz.ch/research/sequential-decision-making)
+14:16:02	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/research/files/golovin10adaptive.pptx (from https://las.inf.ethz.ch/research/sequential-decision-making)
+14:16:02	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=164
+14:16:02	Warning: 	File has moved from https://las.inf.ethz.ch/?p=164 to https://las.inf.ethz.ch/research/crowds-learning-and-incentives
+14:16:02	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/research/files/faulkner13fresh.pptx (from https://las.inf.ethz.ch/research/crowds-learning-and-incentives)
+14:16:02	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/research/files/faulkner11next.pptx (from https://las.inf.ethz.ch/research/crowds-learning-and-incentives)
+14:16:02	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=4132
+14:16:02	Warning: 	File has moved from https://las.inf.ethz.ch/?p=4132 to https://las.inf.ethz.ch/teaching/introml-s20
+14:16:02	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/pw/pw.txt (from https://las.inf.ethz.ch/teaching/introml-s20)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/exams/exam2015.pdf (from https://las.inf.ethz.ch/teaching/introml-s20)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/exams/exam2016.pdf (from https://las.inf.ethz.ch/teaching/introml-s20)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/exams/exam2017.pdf (from https://las.inf.ethz.ch/teaching/introml-s20)
+14:16:02	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3472
+14:16:02	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3472 to https://las.inf.ethz.ch/teaching/introml-s19
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/IML_Review.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/recap.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/hw/hw1/hw1.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-02-regression-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-03-modelselection-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial2_linear_regression.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial2_demo.py (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/sols/hw1/hw1-soln.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-04-crossvalidation-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-05-classification-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial3.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/hw/hw2/hw2.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-06-featureselection-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-07-kernels-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/svm.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/sols/hw2/hw2-soln.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-08-kernels2-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-09-kernels3-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial5_kernels.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/hw/hw3/hw3.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-10-imbalance-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-11-neuralnets-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial6_imbalance_multiclass.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/sols/hw3/hw3_sol.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-12-neuralnets2-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-13-neuralnets3-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial7_neural_networks.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial7_neural_networks_notebooks.zip (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/hw/hw4/hw4.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-14-neuralnets4-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-15-clustering-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial8.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/sols/hw4/sol.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-16-dimred-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-17-dimred2-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial8_clustering_pca/tutorial_clustering_PCA.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/hw/hw5/hw5.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-18-probmodeling-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-19-logreg-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial9_clustering_dimreduc2.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/hw/hw5/hw5-sol.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-20-decisions-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial10.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/hw/hw6/hw6.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-21-generative-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-22-generative2-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial11.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/sols/hw6/sol_hw6.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-23-gmms-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-24-gmms2-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/gen_model_tutorial.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/hw/hw7/hw7.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/slides/introml-25-gans-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/tutorials/tutorial12.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/sols/hw7/sol_hw7.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f19/project/iml19projectinfo.pdf (from https://las.inf.ethz.ch/teaching/introml-s19)
+14:16:02	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3493
+14:16:02	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3493 to https://las.inf.ethz.ch/teaching/feaml-s19
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture1.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture2.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture3.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture4.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture5.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture6.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture7.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture8.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture9.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture10.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/lecture11.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/student_presentation1.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/student_presentation2.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/student_presentation3.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/student_presentation4.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/bias_in_natural_language_processing.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/combining_human_and_machine_decisions.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/preference_based_notions_of_fairness.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/welfare_risk.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/feedback_loops.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/fairness_gerrymandering.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/fairness_voting.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/slides/fairness_in_recommender_systems.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/files/feaml-s19projects.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/files/feaml-s19assignments.pdf (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/files/slides.zip (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/feaml-s19/files/report.zip (from https://las.inf.ethz.ch/teaching/feaml-s19)
+14:16:02	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3896
+14:16:02	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3896 to https://las.inf.ethz.ch/pai-f19
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-02-bayesian-networks-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial1.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial1.zip (from https://las.inf.ethz.ch/pai-f19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/homework/hw1.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-03-bayesian-networks-variableelimination-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial2.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/solutions/hw1-sol.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-04-bayesian-networks-approximateinference-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:02	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial3.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/homework/hw2.zip (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-05-sampling-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial4.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/solutions/hw2-sol.zip (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-06-mcmc-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial5.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/homework/hw3.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-07-sequential-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/solutions/hw3-sol.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-08-mdps-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial7_1.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial7_2.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/homework/hw4.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-09-mdps2-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial8.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/solutions/hw4-sol-updated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-10-learning-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial9.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/homework/hw5.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-11-learning2-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial10.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/solutions/hw5-sol.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-12-rl-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial11.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/homework/hw6.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/tutorials/tutorial12.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/solutions/hw6-sol.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/slides/pai-13-rl2-annotated.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/exam/pai_exam_18.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/exam/pai_exam_17.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/exam/pai_exam_16.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/exam/pai_exam_15.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/exam/pai_exam_14.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/exam/pai_exam_13.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f19/exam/pai_exam_12.pdf (from https://las.inf.ethz.ch/pai-f19)
+14:16:03	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3079
+14:16:03	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3079 to https://las.inf.ethz.ch/teaching/introml-s18
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/tutorials/qa_nn.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/tutorials/qa_probmod.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/tutorials/qa_kernels.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/tutorials/qa_em.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/tutorials/recap.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/tutorials/recap_eratta.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-02-regression-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-03-modelselection-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-04-classification-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-05-perceptron-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-06-featureselection-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-07-kernels-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-08-kernels2-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-09-kernels3-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/tutorials/tutorial_kjong.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-10-imbalance-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-11-neuralnets-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-12-neuralnets2-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-13-neuralnets3-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/tutorials/tutorial5.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-15-clustering-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/tutorials/tutorial_esfandiar.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-16-dimred-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-17-dimred2-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-18-probmodeling-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-19-logreg-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-20-generative-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/tutorials/generative_vs_discriminative_key_ideas.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-21-generative-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-22-generative2-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-23-gmms-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:03	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/introml-f18/slides/introml-24-em-annotated.pdf (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:07	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/people/jens-witkowski (from https://las.inf.ethz.ch/teaching/introml-s18)
+14:16:07	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=3327
+14:16:07	Warning: 	File has moved from https://las.inf.ethz.ch/?p=3327 to https://las.inf.ethz.ch/teaching/pai-f18
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-02-bayesian-networks-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-03-bayesian-networks-d-separation-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-04-bayesian-networks-exact-inference-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-05-bayesian-networks-approximate-inference.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-06-sampling-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-07-sequential-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-08-dbns-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-09-mdps-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-10-learning-bns-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-11-rl_annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-12-rl-advanced-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:07	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f18/slides/pai-13-rl-advanced2-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f18)
+14:16:11	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2448
+14:16:11	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2448 to https://las.inf.ethz.ch/teaching/lis-s17
+14:16:11	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/datamining-f15/pw/pw.txt (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/exam2015-final.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/exam2016-final.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/slides1.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis2017_12.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-05-perceptron-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-02-regression-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_kernels_gunnar.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis-07-kernels-2.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis-10-multiclass.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/notesgunnar.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/notes_29_3.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_sparsity.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_gunnar2.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_25_4.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_25_4_notes.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_26_4.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_2_5.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/notes_2_5.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_3_5.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/notes_3_5.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_19.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_20.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_16_5_1.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_16_5_2.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_17_5.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_23_5.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s17/slides/lis_24_5.pdf (from https://las.inf.ethz.ch/teaching/lis-s17)
+14:16:11	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2748
+14:16:11	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2748 to https://las.inf.ethz.ch/teaching/dm-f17
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-02-minhash-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/recitations/tutorial1.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw1.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw1-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-03-lsh-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/recitations/tutorial2.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-04-supervised-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/recitations/tutorial3.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/recitations/SVM.html (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/recitations/SVM.ipynb (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw2.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw2-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw2-sol.zip (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-05-ocp-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-06-ocp2-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw3.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw3-data.zip (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw3-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw3-code.zip (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-07-parallel-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-08-randomfeatures-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/recitations/random_features.html (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/recitations/random_features.ipynb (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-09-active-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw4.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw4-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-10-clustering-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw5.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw5-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-11-coresetsbandits-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-12-bandits-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/recitations/bandits.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw6.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/hw6-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/slides/dm-13-submodularity-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/recitations/tutorial12.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/recitations/review.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/datamining-f17/pw/pw.txt (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f17/hw/prereq.pdf (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/people/sebastian-tschiatschek (from https://las.inf.ethz.ch/teaching/dm-f17)
+14:16:11	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2785
+14:16:11	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2785 to https://las.inf.ethz.ch/teaching/pai-f17
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-02-bayesian-networks-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-03-bayesian-networks-d-separation-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-04-bayesian-networks-exact-inference-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-05-bayesian-networks-bp-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-06-bayesian-networks-sampling-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-07-bayesian-networks-mcmc.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-08-sequential.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-09-mdps-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-10-learning-bns-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-11-learning-structure-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-12-rl-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f17/slides/pai-13-rl-advanced2-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f17)
+14:16:11	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=1991
+14:16:11	Warning: 	File has moved from https://las.inf.ethz.ch/?p=1991 to https://las.inf.ethz.ch/teaching/lis-s16
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-03-modelselection-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-04-classification-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-06-kernels-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-07-kernels2-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-08-featureselection-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-09-sparsity-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-10-multiclass-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-11-neuralnets-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-12-neuralnets2-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-13-neuralnets3-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-14-unsupervised-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-15-pca-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-16-nonlin-dimred-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-17-probmodeling-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-18-probmodeling2-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-19-decisions-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-20-generative_annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-22-latent-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-23-latent2-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-24-timeseries-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:11	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-25-timeseries2-annotated.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/lis-s16/slides/lis-project.pdf (from https://las.inf.ethz.ch/teaching/lis-s16)
+14:16:13	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2192
+14:16:13	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2192 to https://las.inf.ethz.ch/teaching/pai-f16
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/pw/pw.txt (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/code/gridworld.zip (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-02-bayesian-networks-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/hw/hw1.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-03-bayesian-networks-d-separation.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/sol/hw1-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-04-bayesian-networks-exact-inference-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/hw/hw2.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/hw/hw2.zip (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-05-bayesian-networks-bp-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/hw/hw3.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/hw/hw3.zip (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/sol/hw2-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/sol/hw2-sol.zip (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-06-bayesian-networks-sampling-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/sol/hw3-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/sol/hw3-sol.zip (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-07-sequential-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/hw/pai-2016-recitation-nov4-belief-propagation.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/hw/hw4.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/hw/hw4.zip (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/sol/hw4-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/sol/hw4-sol.zip (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-08-mdps-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-09-pomdps-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/hw/hw5.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-10-learning-bns-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/sol/hw5-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-11-rl-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/code/qlearning.zip (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-12-rl-advanced-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-13-rl-alphago-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/pai-f16/slides/pai-14-exam-review.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/exam/pai_exam_15.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/exam/pai_exam_14.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/exam/pai_exam_13.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:13	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f16/exam/pai_exam_12.pdf (from https://las.inf.ethz.ch/teaching/pai-f16)
+14:16:14	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2220
+14:16:14	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2220 to https://las.inf.ethz.ch/teaching/dm-f16
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-02-minhash-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/recitation/mapreduce.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw1.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw1-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-03-lsh-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/recitation/lsh1.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-04-supervised-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/recitation/lsh2.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw2.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw2-sol.zip (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-05-ocp-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/recitation/lsh3.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw3.zip (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw3-sol.zip (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-06-ocp2-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw4.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw4-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-07-parallel-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-08-randomfeatures-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/recitation/random_features.html (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/recitation/random_features.ipynb (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-09-active-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw5.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw5-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-10-clustering-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-11-bandits-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-12-bandits2-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw6.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/hw6_sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/slides/dm-13-submodularity-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/datamining-f16/pw/pw.txt (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/prerex.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/dm-exam-2013.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/dm-exam-2014.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f16/hw/dm-exam-2015.pdf (from https://las.inf.ethz.ch/teaching/dm-f16)
+14:16:14	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=178
+14:16:14	Warning: 	File has moved from https://las.inf.ethz.ch/?p=178 to https://las.inf.ethz.ch/teaching/pai-f15
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-02-logic-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/recitation/pai-2015-rec-1-logic-part1.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw1.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-03-probability.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/recitation/pai-2015-rec-2-logic-part2.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/sol/hw1-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-04-bnet-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/recitation/pai-2015-rec-3-prob-bnets.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw2.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-05-bnet2-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/sol/hw2-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-06-inference-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw3.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw3.zip (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-07-approximate-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw4.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw4.zip (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/sol/hw3-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/sol/hw3-sol.zip (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-08-sampling-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/sol/hw4-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/sol/hw4-sol.zip (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-09-sequential-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/recitation/pai-2015-rec-9-inference.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw5.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw5.zip (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-10-mdps-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/sol/hw5-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/sol/hw5-sol.zip (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-11-mdps2-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw6.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-12-learning-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/recitation/pai-2015-rec-11-mdps.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw7.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/hw/hw7.zip (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/sol/hw6-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/slides/pai-13-rl-annotated.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/recitation/pai-2015-rec-12-rl.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/sol/hw7-sol.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/recitation/pai-2015-rec-examreview.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/exam/pai_exam_14.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/exam/pai_exam_13.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Error: 	"Forbidden" (403) at link https://las.inf.ethz.ch/courses/pai-f15/exam/pai_exam_12.pdf (from https://las.inf.ethz.ch/teaching/pai-f15)
+14:16:14	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=186
+14:16:14	Warning: 	File has moved from https://las.inf.ethz.ch/?p=186 to https://las.inf.ethz.ch/teaching/dm-f15
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-01-introduction-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-02-minhash-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/recitation/tutorial1.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw1.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw1-data.zip (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw1-sol.zip (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-03-lsh-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-04-classification-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/recitation/tutorial2.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw2.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw2-sol.zip (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-05-ocp-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-06-adagrad-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw3.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw3-sup.zip (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw3-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw3-sol-sup.zip (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-07-nonlinear-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-08-active-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw4.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw4-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-09-unsupervised-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-10-unsupervised2-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/recitation/kmeans_pp.ipynb (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw5.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw5-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-11-bandits-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-12-bandits2-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/recitation/tutorial-bandits.ipynb (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/recitation/tutorial-bandits.html (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw6.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/hw6-sol.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/slides/dm-13-bandits3-annotated.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/dm-exam-2013.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Error: 	"Authorization Required" (401) at link https://las.inf.ethz.ch/courses/datamining-f15/hw/dm-exam-2014.pdf (from https://las.inf.ethz.ch/teaching/dm-f15)
+14:16:14	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=1538
+14:16:14	Warning: 	File has moved from https://las.inf.ethz.ch/?p=1538 to https://las.inf.ethz.ch/teaching/seminar-advanced-topics-in-machine-learning
+14:16:14	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/images/li.gif (from https://las.inf.ethz.ch/general.css)
+14:16:14	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/images/fauxalpha.png (from https://las.inf.ethz.ch/general.css)
+14:16:14	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=2688
+14:16:14	Warning: 	File has moved from https://las.inf.ethz.ch/?p=2688 to https://las.inf.ethz.ch/people/hoda-heidari
+14:16:14	Warning: 	Moved Permanently for https://las.inf.ethz.ch/?p=644
+14:16:14	Warning: 	File has moved from https://las.inf.ethz.ch/?p=644 to https://las.inf.ethz.ch/people/alkisg
+14:16:14	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/courses/lis-s16/applets/Cluster.jar (from https://las.inf.ethz.ch/courses/lis-s16/applets/mixtureofgaussianapplet.html)
+14:16:14	Error: 	"Not Found" (404) at link https://las.inf.ethz.ch/courses/lis-s16/applets/cluster/MixtureOfGaussianApplet.class (from https://las.inf.ethz.ch/courses/lis-s16/applets/mixtureofgaussianapplet.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 32 minutes 32 seconds : 1530 links scanned, 975 files written (782810933 bytes overall) [785160303 bytes received at 402233 bytes/sec], 6.0 requests per connection
+(494 errors, 134 warnings, 0 messages)

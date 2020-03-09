@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Learning &amp; Adaptive Systems Group</title>
+	<atom:link href="https://las.inf.ethz.ch/feed" rel="self" type="application/rss+xml" />
+	<link>https://las.inf.ethz.ch</link>
+	<description></description>
+	<lastBuildDate>Fri, 06 Mar 2020 10:47:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.13</generator>
+	<item>
+		<title>Introduction to Machine Learning 2020</title>
+		<link>https://las.inf.ethz.ch/teaching-introml-s20</link>
+		<pubDate>Wed, 12 Feb 2020 10:01:47 +0000</pubDate>
+		<dc:creator><![CDATA[Philippe Wenk]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://las.inf.ethz.ch/?p=4108</guid>
+		<description><![CDATA[The course will introduce the foundations of learning and making predictions from data. We will study basic concepts such as trading goodness of fit and model complexity. We will discuss important machine learning algorithms used in practice, and provide hands-on experience in a course project. VVZ Information is available here. The exam will take place on a computer. Please inform us about any special request regarding a disability. In the first week&#8217;s tutorial sessions , we will offer a review session of required background material for the course. This will include a short recap of linear algebra, multivariate analysis and ... <div><a href="https://las.inf.ethz.ch/teaching-introml-s20" class="more-link">Read More</a></div>]]></description>
+		</item>
+	</channel>
+</rss>

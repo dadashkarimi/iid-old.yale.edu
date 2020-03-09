@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Portfolio &#8211; Learning &amp; Adaptive Systems Group</title>
+	<atom:link href="https://las.inf.ethz.ch/research/feed" rel="self" type="application/rss+xml" />
+	<link>https://las.inf.ethz.ch</link>
+	<description></description>
+	<lastBuildDate>Fri, 06 Mar 2020 10:47:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.13</generator>
+	<item>
+		<title>Large-scale Machine Learning</title>
+		<link>https://las.inf.ethz.ch/research/large-scale-machine-learning</link>
+		<pubDate>Thu, 15 Oct 2015 20:34:33 +0000</pubDate>
+		<dc:creator><![CDATA[Mario Lucic]]></dc:creator>
+		
+		<guid isPermaLink="false">http://las-new.inf.ethz.ch/?post_type=x-portfolio&#038;p=1043</guid>
+		<description><![CDATA[Coresets, tradeoffs and large-scale submodular maximization]]></description>
+		</item>
+		<item>
+		<title>Probabilistic Modeling and Inference</title>
+		<link>https://las.inf.ethz.ch/research/probabilistic-submodular-models</link>
+		<pubDate>Wed, 14 Oct 2015 03:15:24 +0000</pubDate>
+		<dc:creator><![CDATA[Alkis]]></dc:creator>
+		
+		<guid isPermaLink="false">http://las-new.inf.ethz.ch/?post_type=x-portfolio&#038;p=808</guid>
+		<description><![CDATA[A central challenge in machine learning is to quantify uncertainty via probabilistic models that capture statistical dependencies between many uncertainty quantities. We have recently initiated the study of learning and inference in Probabilistic Submodular Models, a rich class of probabilistic models defined through submodular functions. This class contains and generalizes a number of extensively studied subclasses, such as determinantal point processes, and Ising models. A major benefit of such models is that they allow to capture complex, long-range interactions between many variables, which is useful, for example in computer vision and information retrieval. We develop novel algorithms for efficient approximate inference, ... <div><a href="https://las.inf.ethz.ch/research/probabilistic-submodular-models" class="more-link">Read More</a></div>]]></description>
+		</item>
+		<item>
+		<title>Sequential Decision Making</title>
+		<link>https://las.inf.ethz.ch/research/sequential-decision-making</link>
+		<pubDate>Sun, 01 Mar 2015 06:34:50 +0000</pubDate>
+		<dc:creator><![CDATA[Mario Lucic]]></dc:creator>
+		
+		<guid isPermaLink="false">http://las-new.inf.ethz.ch/?post_type=x-portfolio&#038;p=168</guid>
+		<description><![CDATA[How should we explore design spaces to quickly locate promising designs? How should we make recommendations in dynamic environments with large numbers of items? In general, we are interested in &#8220;closed-loop&#8221; decision making systems that interact with the environment to obtain useful information. We seek novel algorithms for such problems which are capable of accommodating complex constraints in practical setting, such as noise, uncertainty and safety, while preserving strong theoretical guarantees. 2019 Safe Exploration for Interactive Machine Learning M. Turchetta, F. Berkenkamp, A. KrauseIn Proc. Neural Information Processing Systems (NeurIPS), 2019[bibtex] [abstract] [pdf] Teaching Multiple Concepts to a Forgetful Learner ... <div><a href="https://las.inf.ethz.ch/research/sequential-decision-making" class="more-link">Read More</a></div>]]></description>
+		</item>
+		<item>
+		<title>Crowds, Learning and Incentives</title>
+		<link>https://las.inf.ethz.ch/research/crowds-learning-and-incentives</link>
+		<pubDate>Sun, 01 Mar 2015 06:30:09 +0000</pubDate>
+		<dc:creator><![CDATA[Mario Lucic]]></dc:creator>
+		
+		<guid isPermaLink="false">http://las-new.inf.ethz.ch/?post_type=x-portfolio&#038;p=164</guid>
+		<description><![CDATA[How can machines and people work together to accomplish what neither can alone? Our research focuses on problems at the interplay of learning and incentives in crowd-powered systems. Motivated by applications in community sensing, human computation, citizen science and crowdsourcing, we focus on particular technical challenges such as: How to optimally design incentives for learning / information gathering? How can one piece together a global picture from large numbers of noisy observations of a priori unknown quality? We address these fundamental questions by building on state of the art results in machine learning, probabilistic modeling and game theory. Our research ... <div><a href="https://las.inf.ethz.ch/research/crowds-learning-and-incentives" class="more-link">Read More</a></div>]]></description>
+		</item>
+	</channel>
+</rss>
